@@ -1069,7 +1069,6 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td>Similar to Choropleth with the hexbin/tile representing regions equally rather than by geographic size</td>
         <td><img src="/images/data-ethics/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From <a href="https://www.r-graph-gallery.com/328-hexbin-map-of-the-usa.html" target="_blank">R Graph Gallery.</a></figcaption></td>
     </tr>
-    <tr>
 </table>
 
 Adapted from [Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data](https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_), [The Data Visualization Catalogue](https://datavizcatalogue.com/), and [From Data to Viz](https://www.data-to-viz.com/)
