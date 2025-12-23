@@ -1041,7 +1041,7 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td><img src="/images/data-ethics/D4PG_bar.png" alt="Bar Chart"><figcaption>From <a href="https://dataforgood.commons.gc.cuny.edu/report-on-covid-19s-impact-on-cuny-students/" target="_blank">The Data for Public Good</a> at the Graduate Center.</figcaption></td>
     </tr>
     <tr>
-        <td></td>
+        <td>...</td>
         <td>Histograms</td>
         <td>Comparison across continuous variable</td>
         <td><img src="/images/data-ethics/PolicyViz_histogram.png" alt="Histogram"><figcaption>From <a href="https://policyviz.com/2018/11/27/histogram-design-decisions/" target="_blank">Policy Viz.</a></figcaption></td>
@@ -1100,7 +1100,7 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td><img src="/images/data-ethics/DB_choropleth.jpg" alt="Choropleth map"><figcaption>From <a href="https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic" target="_blank">The Library of Congress.</a></figcaption></td>
     </tr>
     <tr>
-        <td></td>
+        <td></td>.
         <td>Hex(bin) or Tile maps</td>
         <td>Similar to Choropleth with the hexbin/tile representing regions equally rather than by geographic size</td>
         <td><img src="/images/data-ethics/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From <a href="https://www.r-graph-gallery.com/328-hexbin-map-of-the-usa.html" target="_blank">R Graph Gallery.</a></figcaption></td>
