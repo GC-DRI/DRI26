@@ -19,18 +19,20 @@ prerequisites:
         description: (required) This workshop makes reference to concepts from the Command Line workshop, and having some knowledge about how to use the command line will be central for anyone who wants to learn about how to handle and process data and data analysis.
 
 instructors: 
-    - 'Peyton Cordero & Maggie Schreiner'
+    - 'Ian G. Williams'
     
 authors:
     - 'Leanne Fan'
     - 'Di Yoong'
     - 'Stephen Zweibel'
-    - 'Kelsey Chatlosh' 
+    - 'Kelsey Chatlosh'
+    - 'Ian G. Williams' 
     
 editors:
     - 'Patrick Sweeney'
     - 'Patrick Smyth' 
-    - 'Lisa Rhody' 
+    - 'Lisa Rhody'
+    - 'Ian G. Williams' 
 
 before getting started:
     - "[Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (required) The dataset, `moSmall.csv`, will be used throughout the challenges in the workshop. To save the file to your local computer, right click on the _Download the workshop dataset_ link and choose `Save Link As...`. Note: It is important to make sure your file is saved as a `.csv` file. Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess). "
@@ -44,10 +46,13 @@ readings:
 
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
-    - "[SAFElab](https://www.asc.upenn.edu/research/centers/safe-lab) led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media."
+    - "[SAFElab](https://www.asc.upenn.edu/research/centers/safe-lab) led by Dr. Desmond Upton Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media."
+    - "[DataKind](https://www.datakind.org/) is a global nonprofit organization founded in 2012 emerging from the Data For Good movement, which has at its core values a commitment to humanity, equity, and innovation."
+    - "[The Data Justice Lab](https://datajusticelab.org/) 'examines the intricate relationship between datafication and social justice' and produces a range of public scholarship outputs that further questions raised in this workshop about data and the digital."
+    - "[The Data Rescue Project](https://www.datarescueproject.org/) emerged in February 2025 to serve as a clearinghouse for preservation projects focused on US government datasets that were identified as at-risk of erasure and tampering."
 
 ethical considerations:
-    - Data and data analysis is [not free from bias](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4). There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+    - Data and data analysis are [not free from bias](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4). There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
     - De-identified information can be [reconstructed from piecemeal data](https://techscience.org/a/2015092903/) found across different sources. When we consider what we are doing with the data we have collected, we also need to think about the possible re-identification of our participants. 
     - Consider how you may use [differential privacy](https://theconversation.com/explainer-what-is-differential-privacy-and-how-can-it-protect-your-data-90686) as a strategy against re-identification. Consider the [US Census 2020 example](https://www.ncsl.org/research/redistricting/differential-privacy-for-census-data-explained.aspx) on utilizing this strategy to address privacy concerns.
     - Big data projects oftentimes require sharing data sets across different individuals and teams. In addition, we need to ensure that our work is reproducible and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage.
@@ -56,15 +61,24 @@ additional datasets:
     - "[National Science Foundation's open datasets](https://catalog.data.gov/organization/nsf-gov)"
     - "[Resources to Find the Data You Need (2016)](https://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/)"
     - "[Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)"
+    - "[Data Rescue Project Data Portal](https://portal.datarescueproject.org/)"
 ---
 
 # Data is Foundational
 
-In this workshop we will be discussing the basics of research data in terms of material, transformation, and presentation. We will also be discussing the ethical issues that arise in data collection, cleaning, and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacies mean within our projects and broader applications.
+In this workshop we will discuss the basics of **research data** in terms of __materials__, __transformation__, and __presentation__. We will also discuss the ethical issues that arise in data collection, cleaning, and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacies mean within our projects and broader applications.
+
+We deliberately use the term **data literacies** to emphasize that there are multiple ways to interpret, engagage with, utilize, and critically examine data. As Lisette Pangrazio and Julian Sefton-Greene (2020) argue in their paper ['The social utility of 'data literacy''](https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1707223), data literacy is a term that is frequently used, but infrequently defined. Examining multiple, sometimes contradictory meanings can be useful and productive for theorizing what data literacy means, and how it differs from existing ideas of literacy that are often tied to print-based media.
+
+Data is foundational to our modern world. We use data to make decisions, represent phenomena, make arguments, and many other actions. Data, as in the definition of measurement - and estimation - of discrete phenomena emerged in the 18th century as part of modern state-building projects. Chris Wiggins and Matthew L. Jones, in their book [__How Data Happened: A History From The Age of Reason to The Age of Algorithms__](https://mitpressbookstore.mit.edu/book/9781324074588), argued that data emerged alongside statistics as forms of state power...
+
+<!-- TODO: expand this section -- define data and literacies -->
 
 ## What Constitutes Research Data?
 
-These quotes below offers **a variety of perspectives** to understand research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations.
+For our purposes at the Graduate Center Digital Research Institute, we are interested in understanding data in terms of its use and lifecycle in research. Thus, we want to understand - expansively - what **research data** is and how it is used.
+
+These quotes below offers **a variety of perspectives** to understand research data across different stakeholders. The inclusion of these diverse approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations. A single project may be understood from multiple perspectives, or may be comprised of multiple professions and fields. This is often the case in community-based research, engaged and public scholarship, and industry-supported research.
 
 *University*
 
@@ -82,18 +96,25 @@ What constitutes such data will be determined by the community of interest throu
 
 *Government Institution*
 
-Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues.
+Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues. This research may also be to test and evaluate the effects of public policies and services.
 
 >>— [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
 
 *Data Science*
 
-The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions
+Data science is a more recent entry into the world of research data. Data scientists often look at large sets of data ("big data") which can reveal novel patterns and relationships between entities and phenomena. Yet data are not neutral. The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions
 
 >>— [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
 
+<!-- TODO: Add this (and expand on different ideas of 'industry')
 
-Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project.
+*Industry-Supported Research*
+
+*Community Research Partner*
+
+-->
+
+Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information are depends on your project. Projects of often utilize multiple sources of data, which may be collected by the researchers (primary) or alread existing (secondary).
 
 <!--## Being Data
 
@@ -108,6 +129,8 @@ Here you will find the terms we will use throughout the workshop for the stages 
 ## Forms of Data 
 
 There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities of collections of digital objects acquired and generated during research.
+
+<!-- TODO: update this list -->
 
 <br />
 <table>
@@ -177,6 +200,12 @@ There are many ways to represent data, just as there are many sources of data. W
 
 ## The Importance of Using Open Data Formats
 
+The concept of **open data** emerged in the digital era, but has some important precendents. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available. 
+
+Open data are forms of **digital commons** - they are resources available for shared use ...
+
+<!-- TODO Explain out open data history & genealogy -->
+
 Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software ceases to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily opened or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. 
 
 An illustration:
@@ -190,6 +219,7 @@ An illustration:
 ![A screenshot of the excel file of the moSmall dataset.](/images/data-ethics/moSmall-xlsx.png)
  
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
+
 
 
 <!--**What are some forms of data you use in your research?**
