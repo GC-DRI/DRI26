@@ -1035,50 +1035,55 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <th>Example of Visualization</th>
     </tr>
     <tr>
-        <th rowspan="3">Comparisons</th>
+        <td>Comparisons</td>
          <td>Bar charts</td>
          <td>Comparison across distinct categories</td>
         <td><img src="/images/data-ethics/D4PG_bar.png" alt="Bar Chart"><figcaption>From <a href="https://dataforgood.commons.gc.cuny.edu/report-on-covid-19s-impact-on-cuny-students/" target="_blank">The Data for Public Good</a> at the Graduate Center.</figcaption></td>
     </tr>
     <tr>
+        <td></td>
         <td>Histograms</td>
         <td>Comparison across continuous variable</td>
         <td><img src="/images/data-ethics/PolicyViz_histogram.png" alt="Histogram"><figcaption>From <a href="https://policyviz.com/2018/11/27/histogram-design-decisions/" target="_blank">Policy Viz.</a></figcaption></td>
     </tr>
     <tr>
+        <td></td>
         <td>Scatter plots</td>
         <td>Useful to check for correlation (not causation!)</td>
         <td><img src="/images/data-ethics/538_scatter.png" alt="Scatter plot"><figcaption>From <a href="https://fivethirtyeight.com/features/the-gops-primary-rules-might-doom-carson-and-cruz/" target="_blank">FiveThirtyEight.</a></figcaption></td>
     </tr>
     <tr>
-        <th rowspan="3">Time</th>
+        <td>Time</td>
         <td>Stacked area charts</td>
         <td>Evolution of value across different groups</td>
         <td><img src="/images/data-ethics/DatatoViz_stackedarea.png" alt="Stacked area chart"><figcaption>From <a href="https://www.data-to-viz.com/graph/stackedarea.html" target="_blank">Data to Viz.</a></figcaption></td>
     </tr>
     <tr>
+        <td></td>
         <td>Sankey Diagrams</td>
         <td>Displaying flows of changes</td>
         <td><img src="/images/data-ethics/DatatoViz_sankey.png" alt="Sankey"><figcaption>From <a href="https://www.data-to-viz.com/graph/sankey.html" target="_blank">Data to Viz.</a></figcaption></td>
     </tr>
    <tr>
+        <td></td>
         <td>Line graphs</td>
         <td>Tracking changes over time</td>
         <td><img src="/images/data-ethics/D4PG_line.jpg" alt="Line Graph"><figcaption>From <a href="https://dataforgood.commons.gc.cuny.edu/report-on-covid-19s-impact-on-cuny-students/" target="_blank">The Data for Public Good</a> at the Graduate Center.</figcaption></td>
     </tr>
     <tr>
-        <th rowspan="2">Small numbers/percentages</th>
+        <td>Small numbers/percentages</td>
         <td>Pie charts</td>
         <td>Demonstrate proportions between categories</td>
         <td><img src="/images/data-ethics/DB_pie.jpg" alt="Pie chart"><figcaption>From <a href="https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic" target="_blank">The Library of Congress.</a></figcaption></td>
     </tr>
     <tr>
+        <td></td>
         <td>Tree maps</td>
         <td>Demonstrate hierarchy and proportion</td>
         <td><img src="/images/data-ethics/DataViz_treemap.png" alt="Tree map"><figcaption>From <a href="https://datavizcatalogue.com/methods/treemap.html" target="_blank">The Data Visualization Catalogue.</a></figcaption></td>
     </tr>
     <tr>
-        <th rowspan="2">Survey responses</th>
+        <td>Survey responses</td>
         <td>Stacked bar charts</td>
         <td>Compares total amount across each group (e.g. plotting Likert scale)</td>
         <td><img src="/images/data-ethics/DB_stackedbar.jpg" alt="Stacked bar charts"><figcaption>From <a href="https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic" target="_blank">The Library of Congress.</a></figcaption></td>
@@ -1089,12 +1094,13 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td><img src="/images/data-ethics/evergreen_nestedarea.jpg" alt="Nested area graph"><figcaption>From <a href="https://stephanieevergreen.com/nested-area-graph/" target="_blank">Evergreen Data.</a></figcaption></td>
     </tr>
     <tr>
-        <th rowspan="2">Place</th>
+        <td>Place</td>
         <td>Choropleth maps</td>
         <td>Visualize values over a geographic area to demonstrate pattern</td>
         <td><img src="/images/data-ethics/DB_choropleth.jpg" alt="Choropleth map"><figcaption>From <a href="https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic" target="_blank">The Library of Congress.</a></figcaption></td>
     </tr>
     <tr>
+        <td></td>
         <td>Hex(bin) or Tile maps</td>
         <td>Similar to Choropleth with the hexbin/tile representing regions equally rather than by geographic size</td>
         <td><img src="/images/data-ethics/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From <a href="https://www.r-graph-gallery.com/328-hexbin-map-of-the-usa.html" target="_blank">R Graph Gallery.</a></figcaption></td>
