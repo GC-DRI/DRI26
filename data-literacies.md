@@ -43,6 +43,8 @@ readings:
     - "[Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) explores some guidelines for addressing complex ethical issues that arise in any research project."
     - "In [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8), Melania Walsh advises researchers to think beyond the IRB and consider 'community engagement, citation, and data sharing' for ethically responsible digital research."
     - "In the article ['Data Colonialism: Rethinking Big Data’s Relation to the Contemporary Subject'](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632?journalCode=tvna) Nick Couldry and  Ulises A. Mejias argue that our relationship with data is a new form of colonialism where the 'exploitation of human beings through data' is akin to historical colonialism. You may access the full version through your university's library system."
+    - "In [Critical Data Studies: An A to Z Guide to Concepts and Methods](https://polity-books-backend.prod.politybooks.wiley.host/wp-content/uploads/2024/12/KITCHIN-9781509566525-EPDF.pdf), Rob Kitchin provides an open-access overview of major concepts, methods, and scholars in the burgeoning field of critical data studies. You can browse an information sheet [here](https://datastories.maynoothuniversity.ie/wp-content/uploads/2025/01/Critical-Data-Studies-book-leaflet.pdf)." 
+    - "In [Keywords of the Datafied State](https://datasociety.net/library/keywords-of-the-datafied-state/), Jenna Burrell, Ranjit Singh, Patrick Davidson, and other contributors from around the world offer a collection of essays on key concepts and terms in relation to the integration of digital technologies including databases, algorithms, and other artificial intelligence systems into states and government institutions.
 
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
@@ -62,6 +64,7 @@ additional datasets:
     - "[Resources to Find the Data You Need (2016)](https://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/)"
     - "[Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)"
     - "[Data Rescue Project Data Portal](https://portal.datarescueproject.org/)"
+    - "[Mimi Onuoha's The Library of Missing Datasets](https://github.com/MimiOnuoha/missing-datasets)"
 ---
 
 # Data is Foundational
