@@ -22,11 +22,11 @@ instructors:
     - 'Ian G. Williams'
     
 authors:
+    - 'Ian G. Williams'
     - 'Leanne Fan'
     - 'Di Yoong'
     - 'Stephen Zweibel'
-    - 'Kelsey Chatlosh'
-    - 'Ian G. Williams' 
+    - 'Kelsey Chatlosh' 
     
 editors:
     - 'Patrick Sweeney'
