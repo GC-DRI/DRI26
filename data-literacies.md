@@ -93,10 +93,13 @@ These quotes below offers **a variety of perspectives** to understand research d
 
 *University*
 
-Material or information on which an argument, theory, test or hypothesis, or another research output is based.
+Material or information on which an argument, theory, test or hypothesis, or another research output is based. Often used synonymously with **evidence**.
 
 >>— [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
+<Info>
+In [__The Craft of Research__](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html), Booth and colleagues explain how data can be used as evidence for both identifying and analyzing research problems and questions.
+</Info>
 
 *Digital Project Management*
 
@@ -111,21 +114,33 @@ Research data is defined as the recorded factual material commonly accepted in t
 
 >>— [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
 
+<Info>__Tip__
+Government data can be unreliable and subject to political changes. The [Data Rescue Project](https://www.datarescueproject.org/) is a clearinghouse for preservation and backups of US government data that emerged in response to the sudden disappearance of previously taken-for-granted data sets.
+</Info>
+
 *Data Science*
 
 Data science is a more recent entry into the world of research data. Data scientists often look at large sets of data ("big data") which can reveal novel patterns and relationships between entities and phenomena. Yet data are not neutral. The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions
 
 >>— [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
 
+<Info>
+
+In [__Big Data, new epistemologies, and paradigm shifts__](https://kitchin.org/wp-content/uploads/2019/04/Big-Data-Society-2014-Kitchin-.pdf), Rob Kitchin examines how data science and its capacity to examine large scale data sets ignited a series of debates about subject matter expertise and what can be known in the era of computation.
+</Info>
+
+
 <!-- TODO: Add this (and expand on different ideas of 'industry')
 
 *Industry-Supported Research*
+
+Companies use data to analze products
 
 *Community Research Partner*
 
 -->
 
-Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information are depends on your project. Projects of often utilize multiple sources of data, which may be collected by the researchers (primary) or alread existing (secondary).
+Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information are depends on your project. Projects of often utilize multiple sources of data, which may be collected by the researchers (primary) or alread existing (secondary). Project audiences may have different assumptions and expectations about what counts as legitimate or credible data.
 
 <!--## Being Data
 
@@ -141,7 +156,7 @@ Here you will find the terms we will use throughout the workshop for the stages 
 
 There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities of collections of digital objects acquired and generated during research.
 
-<!-- TODO: update this list -->
+<!-- TODO: update this list / fix formatting -->
 
 <br />
 <table>
@@ -213,7 +228,7 @@ There are many ways to represent data, just as there are many sources of data. W
 
 The concept of **open data** emerged in the digital era, but has some important precendents. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available. 
 
-Open data are forms of **digital commons** - they are resources available for shared use ...
+Open data are forms of **digital commons** - they are resources available freely shared and reused.
 
 <!-- TODO Explain out open data history & genealogy -->
 
@@ -231,6 +246,9 @@ An illustration:
  
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
 
+<Info>__Tip__
+Proprietary formats often subject users to [**vendor lock-in**](https://en.wikipedia.org/wiki/Vendor_lock-in), where they are required to purchase or lease software and other tools owned and operated by (typically) for-profit entities. For small scale research organizations and public universities with limited budgets, these can become quite costly. Switching can also be quite costly in terms of conversion and staff re-training.
+</Info>
 
 
 <!--**What are some forms of data you use in your research?**
