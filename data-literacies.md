@@ -247,7 +247,7 @@ An illustration:
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
 
 <Info>__Tip__
-Proprietary formats often subject users to [**vendor lock-in**](https://en.wikipedia.org/wiki/Vendor_lock-in), where they are required to purchase or lease software and other tools owned and operated by (typically) for-profit entities. For small scale research organizations and public universities with limited budgets, these can become quite costly. Switching can also be quite costly in terms of conversion and staff re-training.
+Proprietary formats often subject users to [**vendor lock-in**](https://en.wikipedia.org/wiki/Vendor_lock-in), where they are required to purchase or lease software and other tools owned and operated by (typically) for-profit entities. For small scale research organizations and public universities with limited budgets, these can become quite costly. Switching can also be quite costly in terms of conversion and staff re-training. Read Jennifer Edmond's satirical essay, []"Microsoft, We Have To Talk"](https://dariahopen.hypotheses.org/940) for a satirical take on how vendor lock-in affects the digital humanities.
 </Info>
 
 
@@ -290,7 +290,7 @@ As mentioned in the Command Line workshop, proprietary software is owned by the 
 
 ## What forms of data do you use?
 
-
+![A picture of a cat with the text "Let's talk business"](/images/data-ethics/business-cat-data.webp)
 
 
 ## Evaluate
