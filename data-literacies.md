@@ -331,11 +331,16 @@ From the image, we can deduce that audio recordings of participants and a map (g
  
 ### Institutional Review Board (IRB)
 
-[The Institutional Review Board (IRB)](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/institutional-review-boards-irbs-and-protection-human-subjects-clinical-trials) is a floor for ethical responsibility at your university that came to pass after outrage about horrific unethical research studies done on people. A prime example of these grotesque studies is the [Tuskegee Syphilis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html). 
+<!-->
+[The Institutional Review Board (IRB)](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/institutional-review-boards-irbs-and-protection-human-subjects-clinical-trials) is a body charged with oversight of for ethical research responsibility at your university. IRBs came into existence after the release of the Bellewat that came to pass after outrage about horrific unethical research studies done on people. A prime example of these grotesque studies is the [Tuskegee Syphilis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html). 
 
 Born from concerns of the ethical choices made in biomedical and behavioral research, IRB compliance is not broadly applicable. This leaves holes in institutional  ethical regulations and requires researches in other fields, such as the social sciences, to find other ethical regulations or devise field specific ethical considers.
 
-<!--The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB). 
+-->
+
+Born from concerns of the ethical choices made in biomedical and behavioral research, IRB compliance is not broadly applicable. This leaves holes in institutional  ethical regulations and requires researches in other fields, such as the social sciences, to find other ethical regulations or devise field specific ethical considers.
+
+The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB). 
 
 It is important to note that the Belmont Report (1979) was published by The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research after attention and outrage was brought about harm done to people during unethical research studies, such as the [Tuskegee Syphilis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html).
 
@@ -359,7 +364,11 @@ Three core principles of the Belmont report are:
 >> "Who ought to receive the benefits of research and bear its burdens? This is a question of justice, in the sense of "fairness in distribution" or "what is deserved." An injustice occurs when some benefit to which a person is entitled is denied without good reason or when some burden is imposed unduly... There are several widely accepted formulations of just ways to distribute burdens and benefits... These formulations are (1) to each person an equal share, (2) to each person according to individual need, (3) to each person according to individual effort, (4) to each person according to societal contribution, and (5) to each person according to merit."
 </Secret>
 
-Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.make 1 page-->
+Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.make 1 page
+
+<Info>
+In [The History of Human Subjects Research and Rationale for Institutional Review Board Oversight](https://doi.org/10.1002/ncp.10623), Ryan Spellencey and Kristin Busse provide a historical analysis of IRBs and their connection to the Belmont Report.
+</Info>
 
 ### When is an IRB required?
 
@@ -369,7 +378,7 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 * The proposed **research** or **clinical investigation** involves human subjects, and
 * Your university or research institution is **engaged** in the research or clinical investigation involving human subjects.
 
-An IRB is an institutional compliance that may not consider other ethical impacts. As we move forward in this workshop we will consider data and digital project ethics beyond compliance.
+An IRB is an institutional compliance that may not consider other ethical impacts. As we move forward in this workshop we will consider data and digital project **ethics beyond compliance**.
 
 #### Example: Oral History Projects
 
@@ -418,7 +427,12 @@ We start with formulating a research question(s) or hypotheses and set up a proj
 
 In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
 
-- E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights.( Note: if the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form.)
+- E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights. 
+
+<Info>__Tip__
+If the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form
+</Info>
+
 
 **cleaning**
 
@@ -443,7 +457,7 @@ At the end of our analysis, a decision is then made about how we would present t
 
 <Info>
 
-There is no one way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iteration. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While making these decisions seems innocuous, there are ethical considerations, beyond the institution, and impacts we must evaluate in the process.
+There is no one way to go through the stages of data. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iteration. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While making these decisions seems innocuous, there are ethical considerations, beyond the institution, and impacts we must evaluate in the process.
 
 </Info>
 
@@ -458,12 +472,12 @@ As we learn to manipulate data, we will consider our ethical obligations beyond 
 Thinking through how ethical ideas and practices, or lack thereof, are situated may prompt questions such as: How is data retrieved? By whom? For whom? From where? Why? 
 
 <Info>
-In the Command Line workshop you learned about the history of the computer and considered the questions: How were computers developed? By whom? Where? Why?
+In the Command Line workshop you learned about the history of the computer and considered the questions: How were computers developed? By whom? Where? Why? For what purposes?
 </Info>
 
 ## Levels of Impact
 
-Annette Markham in ["OKCupid data release fiasco: It’s time to rethink ethics education", 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/) asserts that ethical digital research is a methodology dependent on reflection, awareness of the debates and concerns in our respective fields, and accountability for the choices we make at each stage of our research. Thus, given the precarious nature of digital research and data we need to use a "what if" approach that will help us evaluate "the possible or probable impact, rather than the prevention of the impact This "impact approach" helps us expand our ethical imagination and consider ethics beyond prescriptives and compliance. 
+Annette Markham in ["OKCupid data release fiasco: It’s time to rethink ethics education", 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/) asserts that ethical digital research is a methodology dependent on reflection, awareness of the debates and concerns in our respective fields, and accountability for the choices we make at each stage of our research. Thus, given the precarious nature of digital research and data we need to use a "what if" approach that will help us evaluate "the possible or probable impact, rather than the prevention of the impact. This "impact approach" helps us expand our ethical imagination and consider ethics beyond prescriptives and compliance. 
 
 Drawing from Markham (2016), we will focus on three levels of impact:
 
@@ -479,23 +493,26 @@ Additionally, this workshop will address the range of impact, or the range of ac
 
 Throughout the workshop we will refer to the impacts by number for quick reference.
 
-<!--<Info>
+<Info>
 **Reflection**
-Now would be a good point to reflect on some ethical debates and concerns happening in your field
-</Info>-->
+Now would be a good point to think about some ethical debates and concerns happening in your field.
+</Info>
 
 ## Challenge: Ethics Beyond Compliance 
 
 Think of the following scenario and the possible considerations and impacts for working with data. 
 
-A graduate student decides to analyze a data set they collected through surveying fellow graduate students. The survey asks students to denote their graduate level, current job, gross income, and housing status. The graduate student hopes to analyze the survey and present their findings at a student council meeting as part of the council's attempt to persuade the administration to provide more funding to the graduate students. The student learns that they can analyze the data and create a visual using Chat GPT. For the sake of time, they decide to use Chat GPT to analyze and visualize the data set. What ethical considerations should the student evaluate? How might using Chat GPT impact the students surveyed?
+A graduate student decides to analyze a data set they collected through surveying fellow graduate students. The survey asks students to denote their graduate level, current job, gross income, and housing status. The graduate student hopes to analyze the survey and present their findings at a student council meeting as part of the council's attempt to persuade the administration to provide more funding to the graduate students. The student learns that they can analyze the data and create a visual using Chat GPT. For the sake of time, they decide to use Chat GPT to analyze and visualize the data set.
+
+- What ethical considerations should the student evaluate?
+- How might using Chat GPT impact the students surveyed?
 
 <Secret>
-Using a large language model application such as Chat GPT to analyze personal information collected by the survey can cause direct impact on the "human subjects" and reproduce categories and information that can be harmful to the participants. The data inputted into Chat GPT is stored and used to produce outputs for other prompts unbeknownst to the graduate student researcher or the participants. Considering these impacts, it is better ethical practice for the graduate student to use a tool that is private and secure for their analysis and visualization.
+Using a large language model (LLM) applications such as Chat GPT to analyze personal information collected by the survey can cause direct impact on the "human subjects" and reproduce categories and information that can be harmful to the participants. The data inputted into Chat GPT is stored and used to produce outputs for other prompts unbeknownst to the graduate student researcher or the participants. Considering these impacts, it is better ethical practice for the graduate student to use a tool that is private and secure for their analysis and visualization.
 </Secret> 
 
 <Info>
-The reveal above is only one of the possible considerations, but there might be many others to evaluate.
+The reveal above is only one of the possible considerations, but can be many others to evaluate.
 </Info>
 
 
@@ -505,7 +522,9 @@ The reveal above is only one of the possible considerations, but there might be 
 
 But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, we may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require us to filter out missing entries and collapse variables or fields before we can run our analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
 
-If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
+<Info>
+If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Johanna Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. Rob Kitchin's entries on "cooked data" and "raw data" in [Critical Data Studies: An A To Z Guide Concepts and Methods](https://mural.maynoothuniversity.ie/id/eprint/19283/1/Critical%20Data%20Studies%20Kitchin%20PDF.pdf) is also useful for understanding these distinctions.
+</Info>
 
 ## Level of Impact I: Direct Impacts on People through Data Collection
 
@@ -527,11 +546,15 @@ For guidelines and working definitions of "human", "public", and "personhood" se
 
 ## Data and Labor
 
-As we think about data collection, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also referred to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/) Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/). Those who do view the income from this work as essential or important are also mostly from underserved communities. 
+As we think about data collection, we should also consider the labor involved in the process. Many researchers rely on Amazon Mechanical Turk (sometimes also referred to as MTurk) for data collection, [often paying less than minimum wage for the task.](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/). Often the assumption made of these workers is someone who is retired, bored, and participating in online gig work for fun or to kill time. While this may be true for some, [more than half of those surveyed in a Pew Research study cite that the income from this work is essential or important](https://www.pewresearch.org/internet/2016/11/17/labor-platforms-technology-enabled-gig-work/). Those who do view the income from this work as essential or important are also mostly from underserved communities.
 
 In addition to being mindful of paying a fair wage to the workers on such platforms, this kind of working environment also brings some further considerations to the data that is collected. For instance, to get close to minimum wage, workers cannot afford to spend much time on each task. Thinking through these circumstances, how do you think it impacts the data we collected? 
 
 For a deeper discussion on data and labor, consider Catherine D'Ignazio and Lauren Klein's chapter [Show Your Work](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/2?readingCollection=0cd867ef) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/)*.
+
+<Info>
+Organizations such as [The Data Labelers Association](https://datalabelers.org/) advocate for data workers and help them strengthen their voices in the data production processes. Other organizations such as [Humans in The Loop (HiTL)](https://humansintheloop.org/) train and work with data labelers from immigrant and refugee backgrounds while maintaining strong ethical commitments to workplace conditions. Marina Kineti recently published [an essay](https://www.tandfonline.com/doi/abs/10.1080/23303131.2025.2558681) examining seven years of observational data on HiTL and some of the challenges it faced.
+</Info>
 
 ## Evaluation
 
@@ -951,7 +974,7 @@ Measurements are *accurate* when: (select one)
 1. How do we know when our data is cleaned enough?
 
 <Secret>
-Often this is decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. Generally, empty entries are removed from the data sets. Perhaps if one is working with social media data, they may remove URLs as these influence the topic modeling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). One may decide here is where to stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but some may consider impact II, politics of knowledge production, and feel uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if one were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
+Often this is decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. Generally, empty entries are removed from the data sets. Perhaps if one is working with social media data, they may remove URLs as these influence the topic modeling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). One may decide here is where to stop cleaning. Some might suggest the removal of **stop words** like "the" "a" "an," but some may consider impact II, politics of knowledge production, and feel uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if one were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
 </Secret>
 
 2. What happens to the data that is removed?
@@ -1007,7 +1030,7 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 - Content Analysis
 - Text Analysis
 
-As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
+As we have discussed thus far, **data are not neutral or objective**. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
 
 
 ## Evaluation
@@ -1033,7 +1056,7 @@ You may choose to leave out data that are perceived to be outliers, especially i
 The interpretation of the results should align itself with the type of analyses that you ran. In addition, it should be guided in some capacity by previous work in this area to inform your understanding and the ethical implications you have evaluated.
 </Secret>
 
-3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs?
+3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses, or unintended consequences, of our outputs?
 
 <Secret>
 Potential misuse we should concern ourselves with is the weaponization of marginalized participants' words and thoughts. We need to be wary of the unintended use of our research because we can't consider every circumstance that the analysis can be misused or misquoted. When working on an oral history project, we may set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. Walsh in [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8#ch18) gives us an example of the Inter-University Consortium for Political and Social Research (ICPSR) that requires different "levels of restriction and access" to social media data.
@@ -1140,7 +1163,6 @@ Adapted from [Stephanie D. Evergreen (2019) Effective data visualization : The r
 
 <!--This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data. -->
 
-
 An example of effective data visualization can be seen in W.E.B. Du Bois [data portraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project.
 
 ## Range of impact, or the range of accessibility
@@ -1194,22 +1216,26 @@ The difficulty of representing this dataset is how at first glance there's an as
 ![Plot of media objects in public domain by gender of artist](/images/data-ethics/genderPD.png)
 </Secret>
 
-<!--# Data Literacy and Ethics
+# Data Literacy and Ethics
 
-Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.-->
+Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.
 
 ### Additional Exploration
 
-- If you were collecting and/or analyzing data on folx in power, such as looking at the data from [Tweets of Congress'](https://alexlitel.github.io/congresstweets/) project, would that change the way you consider your answers to the previous questions?
+- If you were collecting and/or analyzing data on folx in positions of power, such as looking at the data from [Tweets of Congress'](https://alexlitel.github.io/congresstweets/) project, would that change the way you consider your answers to the previous questions?
 - Current [ethical guidelines](https://www.asc.upenn.edu/research/centers/safe-lab/ethics) from SAFE Lab at University of Pennsylvania have decided to alter the text of social media posts to render it unsearchable. Why and when would you consider (or not) altering the collected tweets for publication? 
 
 # Concluding Thoughts
 
-Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We have approached a moment where the question is no longer what we could do but what we should do. Given this saturated data-driven world we currently live in, there is value in pausing and considering why and what we are collecting, researching, analyzing, and understanding. Starting on a new project, especially one dealing with "big" data can be exciting but we now also have to first consider who does the data collected benefit and [why is it important are important](https://www.manifestno.com/). The IRB (Institutional Review Board)'s regulations may form the starting point of our considerations but should not be the ending point of how we consider contextually-driven ethics and data projects.
+**Data and ethics are situated and contextually driven.** As such, there isn’t always a risk-free approach, and approaches that comply with IRB protocols may carry additional risks or unintended consquences for communities whom we research alongside and with. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We have arrived at a moment where the question is no longer what we could do but what we should do. Given this saturated data-driven world we currently live in, there is value in pausing and considering why and what we are collecting, researching, analyzing, and understanding. Starting on a new project, especially one dealing with "big" data can be exciting but we now also have to first consider who does the data collected benefit and [why is it important are important](https://www.manifestno.com/). The IRB (Institutional Review Board)'s regulations may form the starting point of our considerations but should not be the ending point of how we consider contextually-driven ethics and data projects.
 
 In addition, open access is not always the answer to concerns of reproducibility and/or ethical considerations. There are moments where the decision to not have a dataset or analysis openly accessible is valid. For example, when you are working with marginalized or vulnerable populations, concerns for causing more harm justifies restricting access. We may choose to control who has access to decrease the chances of misrepresentations (intentional or otherwise) or having results taken out of context.
 
 For a set of great questions to help you think through your data exploration and project planning, please check out Kristen Hackett's Tagging the Tower post, [What to Consider when Planning a Digital Project.](https://digitalfellows.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project/)
+
+<Info>
+In her short essay [Intersectionality and reflexivity—decolonizing methodologies for the data science process](https://doi.org/10.1016/j.patter.2021.100386), A.E. Boyd reflects on challenges and possibilities with using intersectionality in data science, particularly to address the problem of erasure.
+</Info>
 
 ## Review your knowledge: questions from the lessons
 
