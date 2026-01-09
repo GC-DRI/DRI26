@@ -85,6 +85,8 @@ As Lisette Pangrazio and Julian Sefton-Greene (2020) argue in their paper ['The 
 
 ## What Constitutes Research Data?
 
+![An image of a cat that says "Should I follow the data or my instincts?](/images/data-ethics/data-cat-instincts.jpg)
+
 For our purposes at the Graduate Center Digital Research Institute, we are interested in understanding data in terms of its use and lifecycle in research. Thus, we want to understand - expansively - what **research data** is and how it is used.
 
 These quotes below offers **a variety of perspectives** to understand research data across different stakeholders. The inclusion of these diverse approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations. A single project may be understood from multiple perspectives, or may be comprised of multiple professions and fields. This is often the case in community-based research, engaged and public scholarship, and industry-supported research.
