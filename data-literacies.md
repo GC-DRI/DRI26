@@ -247,7 +247,7 @@ An illustration:
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
 
 <Info>__Tip__
-Proprietary formats often subject users to [**vendor lock-in**](https://en.wikipedia.org/wiki/Vendor_lock-in), where they are required to purchase or lease software and other tools owned and operated by (typically) for-profit entities. For small scale research organizations and public universities with limited budgets, these can become quite costly. Switching can also be quite costly in terms of conversion and staff re-training. Read Jennifer Edmond's satirical essay, []"Microsoft, We Have To Talk"](https://dariahopen.hypotheses.org/940) for a satirical take on how vendor lock-in affects the digital humanities.
+Proprietary formats often subject users to [**vendor lock-in**](https://en.wikipedia.org/wiki/Vendor_lock-in), where they are required to purchase or lease software and other tools owned and operated by (typically) for-profit entities. For small scale research organizations and public universities with limited budgets, these can become quite costly. Switching can also be quite costly in terms of conversion and staff re-training. Read Jennifer Edmond's satirical essay, ["Microsoft, We Have To Talk"](https://dariahopen.hypotheses.org/940) for a satirical take on how vendor lock-in affects the digital humanities.
 </Info>
 
 
@@ -298,7 +298,7 @@ As mentioned in the Command Line workshop, proprietary software is owned by the 
 Research data can be defined as: (select all that apply)
 
 <Quiz>
-- materials or information necessary to come to my conclusion.*
+- materials or information necessary to come to a conclusion.*
 - the recorded factual material commonly accepted in the scientific community as necessary to validate research findings.*
 - method of collection and analysis.
 - objective and error-free.
@@ -411,56 +411,6 @@ Yes
 For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf) 
 
 
-# Stages of Data
-
-![Stages of data illustration with images of the data corresponding to the stage.](/images/data-ethics/stages-of-data-linear.png)
-
-We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of:
-
-**collection of "raw" data**
-
-We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
-
-- E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
-
-**processing and/or transforming data**
-
-In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
-
-- E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights. 
-
-<Info>__Tip__
-If the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form
-</Info>
-
-
-**cleaning**
-
-After collecting our data we then consider and make decisions in the processes of cleaning.
-
-- E.g. We have to transform some of the gender values and decide what to do with the missing fields.
-
-**analysis**
-
-We then run our preliminary analysis of the data.
-
-- E.g. We can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
-
-**visualization**
-
-At the end of our analysis, a decision is then made about how we would present the data and its analysis.
-- E.g. We can present the result in a pie chart or a bar graph.
-
-## Stages of Data: Non-linear
-
-![Stages of data are non-linear](/images/data-ethics/stages-of-data-non-linear.png)
-
-<Info>
-
-There is no one way to go through the stages of data. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iteration. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While making these decisions seems innocuous, there are ethical considerations, beyond the institution, and impacts we must evaluate in the process.
-
-</Info>
-
 # Ethics Beyond Compliance 
 
 As we learn to manipulate data, we will consider our ethical obligations beyond institutional compliance such as an IRB. We will think of ethics as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight. Using this definition of ethics, we then consider ethics as situated.
@@ -502,17 +452,67 @@ Now would be a good point to think about some ethical debates and concerns happe
 
 Think of the following scenario and the possible considerations and impacts for working with data. 
 
-A graduate student decides to analyze a data set they collected through surveying fellow graduate students. The survey asks students to denote their graduate level, current job, gross income, and housing status. The graduate student hopes to analyze the survey and present their findings at a student council meeting as part of the council's attempt to persuade the administration to provide more funding to the graduate students. The student learns that they can analyze the data and create a visual using Chat GPT. For the sake of time, they decide to use Chat GPT to analyze and visualize the data set.
+__A graduate student decides to analyze a data set they collected through surveying fellow graduate students. The survey asks students to denote their graduate level, current job, gross income, and housing status. The graduate student hopes to analyze the survey and present their findings at a student council meeting as part of the council's attempt to persuade the administration to provide more funding to the graduate students. The student learns that they can analyze the data and create a visual using Chat GPT. Feeling crunched for time, they decide to use Chat GPT to analyze and visualize the data set.__
 
 - What ethical considerations should the student evaluate?
 - How might using Chat GPT impact the students surveyed?
+- How can the levels of impact framework help us think through the ethical concerns raised by this case?
 
 <Secret>
-Using a large language model (LLM) applications such as Chat GPT to analyze personal information collected by the survey can cause direct impact on the "human subjects" and reproduce categories and information that can be harmful to the participants. The data inputted into Chat GPT is stored and used to produce outputs for other prompts unbeknownst to the graduate student researcher or the participants. Considering these impacts, it is better ethical practice for the graduate student to use a tool that is private and secure for their analysis and visualization.
+This is not exhaustive, but some concerns that arise include: Using a large language model (LLM) applications such as Chat GPT to analyze personal information collected by the survey can cause direct impact on the "human subjects" and reproduce categories and information that can be harmful to the participants. The data inputted into Chat GPT is stored and used to produce outputs for other prompts unbeknownst to the graduate student researcher or the participants. Considering these impacts, it is better ethical practice for the graduate student to use a tool that is private and secure for their analysis and visualization.
 </Secret> 
 
 <Info>
 The reveal above is only one of the possible considerations, but can be many others to evaluate.
+</Info>
+
+# Stages of Data: Non-Linear
+
+![Stages of data illustration with images of the data corresponding to the stage.](/images/data-ethics/stages-of-data-linear.png)
+
+We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of:
+
+**collection of "raw" data**
+
+We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
+
+- E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
+
+**processing and/or transforming data**
+
+In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
+
+- E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights. 
+
+<Info>__Tip__
+If the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form
+</Info>
+
+**cleaning**
+
+After collecting our data we then consider and make decisions in the processes of cleaning.
+
+- E.g. We have to transform some of the gender values and decide what to do with the missing fields.
+
+**analysis**
+
+We then run our preliminary analysis of the data.
+
+- E.g. We can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
+
+**visualization**
+
+At the end of our analysis, a decision is then made about how we would present the data and its analysis.
+- E.g. We can present the result in a pie chart or a bar graph.
+
+## Stages of Data: Non-linear
+
+![Stages of data are non-linear](/images/data-ethics/stages-of-data-non-linear.png)
+
+<Info>
+
+There is no one way to go through the stages of data. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iteration. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While making these decisions seems innocuous, there are ethical considerations, beyond the institution, and impacts we must evaluate in the process.
+
 </Info>
 
 
