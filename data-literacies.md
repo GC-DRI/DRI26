@@ -232,6 +232,9 @@ There are many ways to represent data, just as there are many sources of data. W
 
 ## The Importance of Using Open Data Formats
 
+
+
+
 The concept of **open data** emerged in the digital era, but has some important precendents. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available for the common good, arguing that researchers had an obligation to contribute to "the common pot" and relinquish individual claims over their data. Merton's idea carried forward into the 1990's and were influential on the emerging concept of open government data (often called 'open data'), which cystallized into a set of standards at the Sebastopol meeting in 2007. Read more about it in in [Simon Chignard's essay on the history of open data](https://www.paristechreview.com/2013/03/29/brief-history-open-data/). The Sebastopol Principles of Open Government Data insist that open government data is:
 
 - Complete
