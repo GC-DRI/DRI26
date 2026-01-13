@@ -75,6 +75,10 @@ We deliberately use the term **data literacies** to emphasize that there are mul
 
 Data is foundational to our modern world. We use data to make decisions, represent phenomena, make arguments, and many other actions. Data, as in the definition of measurement - and estimation - of discrete phenomena emerged in the 18th century as part of modern state-building projects. Chris Wiggins and Matthew L. Jones, in their book [__How Data Happened: A History From The Age of Reason to The Age of Algorithms__](https://mitpressbookstore.mit.edu/book/9781324074588), argued that data emerged alongside statistics as forms of state power. <!-- TODO: Add more here / expand summary of book-->
 
+<Info>
+For more background and historical narrative on data, watch [this video recording](https://www.youtube.com/watch?v=Lndaz4PPE7k) of Wiggins and Jones giving a talk on their book at Harvard University and explain its origins in an interdisciplinary class they jointly taught that that drew from their backgrounds in statistics, data science, and history.
+</Info>
+
 # Data Literacies vs Digital Literacies
 
 Before going further into this lesson, it is important to distinguish between **digital literacies**, and **data literacies**. While digital literacies means "the ability to use information and communication technologies to find, evaluate, create, and communicate information, requiring both cognitive and technical skills" (see the [American Library Association's digital literacy clearinghouse](https://literacy.ala.org/digital-literacy/) for more information), **digital literacies** refers to multiple capacities to meanitnfully interpret, engage with, utilize, and critically examine data. Data can have a very expansive meaning. In our context this often means information and materials stored on and interactive with through computers. Data are a abstract representations of  
@@ -90,6 +94,8 @@ As Lisette Pangrazio and Julian Sefton-Greene (2020) argue in their paper ['The 
 For our purposes at the Graduate Center Digital Research Institute, we are interested in understanding data in terms of its use and lifecycle in research. Thus, we want to understand - expansively - what **research data** is and how it is used.
 
 These quotes below offers **a variety of perspectives** to understand research data across different stakeholders. The inclusion of these diverse approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations. A single project may be understood from multiple perspectives, or may be comprised of multiple professions and fields. This is often the case in community-based research, engaged and public scholarship, and industry-supported research.
+
+<!-- TODO: Make this cleaner - create a table or graphic -->
 
 *University*
 
@@ -156,7 +162,7 @@ Here you will find the terms we will use throughout the workshop for the stages 
 
 There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities of collections of digital objects acquired and generated during research.
 
-<!-- TODO: update this list / fix formatting -->
+<!-- TODO: update this list / fix formatting (works in Markdown but not in page display) -->
 
 <br />
 <table>
@@ -226,13 +232,26 @@ There are many ways to represent data, just as there are many sources of data. W
 
 ## The Importance of Using Open Data Formats
 
-The concept of **open data** emerged in the digital era, but has some important precendents. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available. 
+The concept of **open data** emerged in the digital era, but has some important precendents. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available for the common good, arguing that researchers had an obligation to contribute to "the common pot" and relinquish individual claims over their data. Merton's idea carried forward into the 1990's and were influential on the emerging concept of open government data (often called 'open data'), which cystallized into a set of standards at the Sebastopol meeting in 2007. Read more about it in in [Simon Chignard's essay on the history of open data](https://www.paristechreview.com/2013/03/29/brief-history-open-data/). The Sebastopol Principles of Open Government Data insist that open government data is:
 
-Open data are forms of **digital commons** - they are resources available freely shared and reused.
+- Complete
+- Primary
+- Timely
+- Accessible
+- Machine-Processable
+- Non-Discriminatory
+- Non-Proprietary
+- License-Free
+
+Open government data is one form. Open data, more broadly, are forms of **digital commons** - they are freely available resources available for sharing and reuse without commercial license. Like a pastoral commons, they are maintained within ecosystems and networks. 
+
+<Info>
+The Open Society Foundation's [Open Data Commons](https://opendatacommons.org/) is a repository of legal tools and licenses to support with open data publishing. Check them out if you would like to know more about open data standards.
+</Info>
 
 <!-- TODO Explain out open data history & genealogy -->
 
-Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software ceases to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily opened or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. 
+Researchers may use a variety of open data sources. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software ceases to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily opened or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. 
 
 An illustration:
 
@@ -292,7 +311,6 @@ As mentioned in the Command Line workshop, proprietary software is owned by the 
 
 ![A picture of a cat with the text "Let's talk business"](/images/data-ethics/business-cat-data.webp)
 
-
 ## Evaluate
 
 Research data can be defined as: (select all that apply)
@@ -311,12 +329,16 @@ Below you will find two front matter pages of two distinct digital projects. As 
 2. What are some forms of data outputted by the project?
 3. Where was the data retrieved from to complete the project? 
 
+Take a few minutes to explore the project websites. It is advised that you right-click the links and open them in new tabs.
+
 ![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Human-Computers-At-NASA.png)
 
 [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/) is an archival project that "seeks to shed light on the buried stories of African American women with math and science degrees who began working at NACA (now NASA) in 1943 in secret, segregated facilities."
 
 <Secret>
 From the image, we can deduce that newspaper articles (digital copies of text) and photographs (digital copies of images) were used to compile this archive. Noticing the highlighted name in the news article, the data may be outputted as searchable text, searchable database, and/or searchable images. The data most likely was retrieved from a database and/or non-digital field notes. This is the [data source page](https://omeka.macalester.edu/humancomputerproject/items/browse) for Human Computers At NASA.
+
+Inspecting the website, we can see more information about the data sources.
 </Secret>
 
 ![Screenshot of the frontmatter of an audio community mapping project called Listen for the Iraqis in NYC!](/images/data-ethics/Listen-for-the-Iraqis-in-NYC.png)
@@ -338,11 +360,15 @@ Born from concerns of the ethical choices made in biomedical and behavioral rese
 
 -->
 
-Born from concerns of the ethical choices made in biomedical and behavioral research, IRB compliance is not broadly applicable. This leaves holes in institutional  ethical regulations and requires researches in other fields, such as the social sciences, to find other ethical regulations or devise field specific ethical considers.
+![A picture of cat with glasses, with text overlaid saying "IRB Cat Demands Informed Consent"](/images/data-ethics/irb-cat.jpg)
 
-The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB). 
 
-It is important to note that the Belmont Report (1979) was published by The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research after attention and outrage was brought about harm done to people during unethical research studies, such as the [Tuskegee Syphilis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html).
+Born from concerns of the ethical choices made in biomedical and behavioral research, IRB compliance is a fact of university life but its specific concerns are rooted in the disciplinary and legal concerns of its origin. This leaves holes in institutional  ethical regulations and requires researches in other fields, such as the social sciences, to find additional ethical regulations or devise field specific ethical considers.
+
+The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).  It is important to note that the Belmont Report (1979) was published by The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research after attention and outrage was brought about harm done to people during unethical research studies, such as the [Tuskegee Syphilis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html).
+
+
+<!-- TODO: Make diagram of Belmont Report principles-->
 
 Three core principles of the Belmont report are:
 
@@ -372,13 +398,15 @@ In [The History of Human Subjects Research and Rationale for Institutional Revie
 
 ### When is an IRB required?
 
-Usually, IRB review is required when *ALL* of the criteria below are met:
+Usually, full IRB review is required when *ALL* of the criteria below are met:
 
 * The investigator is conducting **research** or **clinical investigation**,
 * The proposed **research** or **clinical investigation** involves human subjects, and
 * Your university or research institution is **engaged** in the research or clinical investigation involving human subjects.
 
-An IRB is an institutional compliance that may not consider other ethical impacts. As we move forward in this workshop we will consider data and digital project **ethics beyond compliance**.
+Research proposals involving human subjects must be submitted to IRB; based on their determination they may consider the study __exempt__ or __expedited__.
+ 
+An IRB is an institutional compliance primarily concerned with following legal and regulatory guidelines; it may not consider other ethical impacts, particulary in areas of emerging technology. As we move forward in this workshop we will consider data and digital project from the standpoint of **ethics beyond compliance**.
 
 #### Example: Oral History Projects
 
@@ -413,7 +441,7 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 # Ethics Beyond Compliance 
 
-As we learn to manipulate data, we will consider our ethical obligations beyond institutional compliance such as an IRB. We will think of ethics as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight. Using this definition of ethics, we then consider ethics as situated.
+As we learn to manipulate data, we will consider our ethical obligations beyond institutional compliance such as an IRB. We will think of ethics as __the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight__. Using this definition of ethics, we then consider ethics as situated.
 
  **Situated ethics refers to the notion that a person's understandings of and commitments to ethics or morality are greatly linked to their own experiences, positionalities, and political orientations, as well as the particular context in which that person is putting such ethics into practice** [Helen Simons and Robin Usher, Situated Ethics in Educational Research, 2000](https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203354896&type=googlepdf). 
 
@@ -428,6 +456,10 @@ In the Command Line workshop you learned about the history of the computer and c
 ## Levels of Impact
 
 Annette Markham in ["OKCupid data release fiasco: It’s time to rethink ethics education", 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/) asserts that ethical digital research is a methodology dependent on reflection, awareness of the debates and concerns in our respective fields, and accountability for the choices we make at each stage of our research. Thus, given the precarious nature of digital research and data we need to use a "what if" approach that will help us evaluate "the possible or probable impact, rather than the prevention of the impact. This "impact approach" helps us expand our ethical imagination and consider ethics beyond prescriptives and compliance. 
+
+<Info>
+The Association of Internet Research (AOIR)'s [Ethical Guidlines for Internet Research (version 3.0)](https://aoir.org/ethics/) incorporate Markham's notion of levels of impact. It is a valuable document for digital projects that can help expand your awareness of situated ethics in digital scholarship.
+</Info>
 
 Drawing from Markham (2016), we will focus on three levels of impact:
 
@@ -447,6 +479,7 @@ Throughout the workshop we will refer to the impacts by number for quick referen
 **Reflection**
 Now would be a good point to think about some ethical debates and concerns happening in your field.
 </Info>
+
 
 ## Challenge: Ethics Beyond Compliance 
 
