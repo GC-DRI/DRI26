@@ -76,7 +76,7 @@ Moreover, when working with any data management software, but especially with ma
 3. In the First_Project folder, create a subfolder titled "Data."  
 4. Within the Data folder is where you’ll save the unzipped geo_export and 311_Service_Requests files. <br>
 
-<Download files='311_Service_Requests_from_2010_to_Present_20250121.csv.zip, geoexport_2020 (1).zip'> 
+<Download files='311_Service_Requests_from_2010_to_Present_20250121.csv.zip, geoexport_2020(1).zip'> 
 
 After you download, right-click the downloaded files one at a time (but do not click into the folder) and select Open, Extract, Unzip, or Decompress (this terminology depends on your OS).
 
