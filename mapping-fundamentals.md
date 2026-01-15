@@ -60,13 +60,16 @@ In order to follow along with this workhop, you will need to download the relate
 1. A shapefile of NYC Neighborhood Tabulation Areas (NTAs)
 2. A CSV of 311 Noise Complaints filed between January and March of 2024 in NYC.
 
-We will talk more about what this data is a little later. Let's just focus on downloading them for now. You will download 1 folder and 1 compressed CSV file linked below. Please read all of these instructions before downloading. The files are called *geo_export* and *311_Service_Requests*. Compressed (or zipped) files make it easier and faster to share big and complicated data, but once you download the files, you’ll need to decompress/un-zip/extract the folders in order to make use of the data inside. <br>
+We will talk more about what this data is a little later. Let's just focus on downloading them for now. 
+
+##
+You will download 1 folder and 1 compressed CSV file linked below. Please read all of these instructions before downloading. The files are called *geo_export* and *311_Service_Requests*. Compressed (or zipped) files make it easier and faster to share big and complicated data, but once you download the files, you’ll need to decompress/un-zip/extract the folders in order to make use of the data inside. <br>
 	
 The folder contains numerous files, all of different types. It is very important that you do not attempt to rename or move any of these individual files, they’re named for QGIS to be able to read, not for humans to be able to read. QGIS knows how to package these files together into map-able data, so it’s important that these files keep their names and stay together. <br>
 
 Moreover, when working with any data management software, but especially with mapping softwares, it’s very important that your files are organized on your computer in a way that both you AND your computer can understand and easily access. Please do not save this data folder in a subfolder of your photos folder that has pictures of your last vacation! And please do not leave it in your Downloads folder! Lots of errors that come up when people are learning QGIS originate in where they saved their data. Follow these steps:
 
-## Workflow for best practices of data storage:
+**Workflow for best practices of data storage**
 
 1. Create a new folder (on your desktop or wherever you can easily access it) to hold all of your present and future mapping projects, maybe titled ‘QGIS_Projects.’ 
 2. In that folder, create a subfolder titled ‘First_Project’. This will be your project folder in which both your QGIS project file and your project data folder will be stored.
@@ -84,6 +87,8 @@ If you are not asked about where to place the folder and it just decompresses in
 Congratulations! You’ve downloaded the software and organized the project files! That process of data download/organization is a constant one when working with GIS. And as you collect more and more data for mapping, you’ll often re-use data in multiple projects, so it’s good that you’re forming data organization habits that will help you in the long run. 
 
 # Getting Oriented in QGIS
+Now we're going to get ourselves oriented in QGIS. We'll go over the layout of the user interface, point out the main buttons and tools available, and practice navigating the map canvas.
+
 ## Navigating the User Interface
 Open QGIS and you'll see the user interface. We'll briefly go through each area of the interface before creating a new project. The **Browser** and **Layers** panels are docked on the left side, and at the top are **Menu Bar** and the **Toolbars**. At the bottom is the **Status Bar** and the **Locator Bar**. The rest of the space is the **map canvas**, which at initialization is populated by thumbnails of recent projects, the news feed, and project templates. 
 
@@ -91,6 +96,7 @@ Open QGIS and you'll see the user interface. We'll briefly go through each area 
 
 ### Browser Panel
 The Browser panel contains a file tree that allows you to access your computer's files and folders, and this is how you'll add data into map projects. Below the drives are Database connections. Spend a minute expanding the file tree by clicking the arrows to the left of each folder. Navigate to the project folder that holds our data, right-click and select 'Add as Favorite.' This copies the folder to the Favorites folder at the top for quick and easy access. Collapse the file tree by clicking the arrows again. 
+
 ### Customizing the UI
 You can reorganize the various panels and bars in the UI to your liking by clicking on the name of the panel and dragging. Left click on 'Browser', and drag the panel toward the right side of the screen by moving your mouse while the left-click is still engaged. Notice how the Browser panel is now free floating as a standalone panel. Continue to drag the Browser panel to the right side of the screen, and a highlighted blank space will appear. You can dock the Browser panel on the right by dropping the panel into the highlighted space. 
 
@@ -142,7 +148,7 @@ You can move the map view, which is called panning, in a few ways:
 New York City!
 </Secret>
 
-## Bookmarks
+### Bookmarks
 Since we'll be working at the scale of New York City, we should create a **Spatial Bookmark** of this extent so that we don't have to zoom and pan to it over and over. To do this, click on the Spatial Bookmark button in the toolbar (blue bookmark with yellow star icon). In the Bookmark Editor dialog box, name the bookmark "New York City" and click Save. Now in the Browser panel, expand Spatial Bookmarks and Project Bookmarks to see that the New York City bookmark has saved. Whenever we want to return to this extent, we can click this bookmark. 
 
 # Adding and Organizing Data
@@ -150,11 +156,11 @@ Now its time to add our own data into the map.
 
 We have two sets of spatial data for this project: 
 
-## A shapefile of the New York City Neighborhood Tabulation Areas (NTAs): "geo_export_941b0fdf..."
+**A shapefile of the New York City Neighborhood Tabulation Areas (NTAs): "geo_export_941b0fdf..."**
 - This file was downloaded from [NYC Open Data](https://data.cityofnewyork.us/City-Government/2020-Neighborhood-Tabulation-Areas-NTAs-/9nt8-h7nd/about_data). NTA boundaries are used for statistical purposes only and may not reflect all local understandings or definitions of NYC neighborhoods. While they use familiar names, they aren't official neighborhood boundaries.
 
 
-## A CSV of 311 Noise Complaint Data with x,y coordinates: "311_Service_Requests_from_2010_to_Present"
+**A CSV of 311 Noise Complaint Data with x,y coordinates: "311_Service_Requests_from_2010_to_Present"**
 - Even though the file name says all service requests 2010 to Present, the data only contains noise complaints from the first three months of 2024.
 - The main dataset for this workshop is from [NYC Open Data](https://data.cityofnewyork.us/Social-Services/311-Noise-Complaints/p5f6-bkga/about_data) collected from NYC’s 311 call center. Some of the most popular complaints filed through 311 are about parking, noise, garbage, etc. We’ll be working with just the noise complaints in this workshop.
 
@@ -191,7 +197,7 @@ To fully remove data from the project, right-click the layer you want to remove 
 
 Now we can remove the NYC Neighborhoods layer. Click Remove Layer. 
 
-## Knowledge Check
+### Knowledge Check
 Add the NYC Neighborhoods layer back into the map from the **Browser**. 
 
 <Secret>
@@ -279,7 +285,7 @@ Later on in this workshop, we are going to combine the NYC Neighborhoods layer w
 
 To ensure that these layers can be combined, we're going to the NYC Neighborhoods layer as a new layer with a **NAD 1983 State Plane NY Long Isl FIPS 3104 US Ft** as its Coordinate Reference System.
 
-## Knowledge Check
+### Knowledge Check
 Follow the same steps for exporting the NYC Neighborhoods layer as you did for exporting the Noise Complaints layer, with a few adjustments. 
 - Name the file "NYC_Neighborhoods_NAD"
 - Select **polygon** for the "geometry type
