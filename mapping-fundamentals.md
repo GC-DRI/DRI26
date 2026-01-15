@@ -14,11 +14,11 @@ estimated time:
 
 prerequisites:
   -  mapping-foundations:
-	  description: "(Required) This workshop will teach you the foundational concepts and terms of GIS that are applicable across platforms."
-	  required: true
+    	description: "(Required) This workshop will teach you the foundational concepts and terms of GIS that are applicable across platforms."
+     	required: true
   - data-ethics:
-      description: "(Recommended) In order to have a better understanding of the data formats we handle in this workshop, if you don't already have a foundational understanding of data formats and types, you can start by walking through our Data Ethics workshop."
-      recommended: true
+    	description: "(Recommended) In order to have a better understanding of the data formats we handle in this workshop, if you don't already have a foundational understanding of data formats and types, you can start by walking through our Data Ethics workshop."
+      	recommended: true
   
 installations:
   - qgisguide: 
