@@ -1,5 +1,5 @@
 ---
-title: Foundations of Mapping with GIS
+title: Foundations of Mapping
 cover title: Mapping
 description: 'Mapping is a powerful way to analyze, visualize, and explore spatial data. A Geographic Information System (GIS) is a mapping technology that allows users to analyze spatial data and produce cartographic visualizations. This workshop will teach you the foundational concepts of GIS that are applicable across platforms. No prior experience necessary.' 
 
@@ -43,9 +43,10 @@ scholarly resources:
 ---
 
 # The Power of 'Where'
-## What can maps do?
+### What can maps do?
 
 A map is method of making sense of data. Maps can organize it, analyze it, visualize it, share it. More specifically, maps are best for examining the relationships between different things in a particular space--this is called **spatial analysis**. Maps use the 'where' of data to combine heterogenous datasets and reveal spatial relationships.
+
 ## Maps and spatial analysis
 Here are some things maps and spatial analysis can be used for:
 - Understand where - *Where is Cleveland, Ohio? Where are shoreline access points in my neighborhood? Where does my mom live?*
