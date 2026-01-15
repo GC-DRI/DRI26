@@ -25,6 +25,12 @@ installations:
       description: "(Required) To complete this workshop you will need to install QGIS. Step by step installation instructions are available [here](https://github.com/goforanna/fundamentalsofQGIS/blob/2b0494dbbe684a6d5d678f392c90ff46a5046991/QGISInstallInstructions.md)."
       required: true
 
+instructors: 
+    - 'Parisa Setayesh'
+
+authors:
+    - 'Anna Schlenz'
+
 additional readings:
   - "[Finding the Right Tools for Mapping](https://digitalfellows.commons.gc.cuny.edu/2019/06/03/finding-the-right-tools-for-mapping/)"
   - "[Finding Data for Mapping: Tips and Tricks](https://digitalfellows.commons.gc.cuny.edu/2018/11/24/finding-data-for-mapping-tips-and-tricks/)"
