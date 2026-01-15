@@ -67,7 +67,9 @@ Moreover, when working with any data management software, but especially with ma
 3. In the First_Project folder, create a subfolder titled "Data."  
 4. Within the Data folder is where you’ll save the unzipped geo_export and 311_Service_Requests files. <br>
 	
-[Download the QGIS data files here]() 
+<a href="uploads/mapping/311_Service_Requests_from_2010_to_Present_20250121.csv.zip" download="new-filename.pdf">Click here to download NTAs</a>
+
+<a href="uploads/mapping/geoexport_2020 (1).zip" download="geoexport_2020 (1).zip">Click here to download Noise Complaints</a>
 
 After you download, right-click the downloaded files one at a time (but do not click into the folder) and select Open, Extract, Unzip, or Decompress (this terminology depends on your OS).
 
@@ -189,7 +191,7 @@ Now we can remove the NYC Neighborhoods layer. Click Remove Layer.
 Add the NYC Neighborhoods layer back into the map from the **Browser**. 
 
 <Secret>
-Navigate the **Browser** panel to the Data folder of First_Project. Drag and drop "geo_export" into the map canvas.
+Navigate the Browser panel to the Data folder of First_Project. Drag and drop "geo_export" into the map canvas.
 </Secret>
 
 
