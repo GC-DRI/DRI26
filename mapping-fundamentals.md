@@ -172,7 +172,7 @@ We'll start by adding the two shapefiles and will deal with the CSV in a bit.
 
 In the Browser panel, expand the Data subfolder in the First_Project folder. Add the "geo_export_941b0fdf" file into the map by double clicking. 
 
-QGIS randomly assigns a fill color to the borough features, and we can change the color later. 
+QGIS randomly assigns a fill color to the neighborhood features, and we can change the color later. 
 Notice how the Neighborhoods layer was added to the Layers panel on top of the basemap. 
 Rename the Neighborhoods layer by right-clicking the file name in the Layers panel > selecting 'Rename Layer' > typing in 'NYC Neighborhoods' > and hitting enter. 
 
@@ -239,7 +239,7 @@ Nothing about the map changed! That's because CSVs are not formatted as spatial 
 
 We'll inspect the tables of our two data formats to see their differences. Open the NYC Neighborhoods attribute table by right-clicking the layer in the Layers Panel and selecting **Open Attribute Table**. The layer's attribute table will open in a new window. This is almost as simple as an attribute table will ever look. There are 11 fields, indicated by the eleven columns with field names at the top of the table. Scroll to the bottom of the table and not that there are 262 rows, indicating that there are 262 features in this layer. Each row contains data for one feature--one neighborhood. So, there are 262 rows holding the data for the 262 polygon features, which are the 262 neighborhoods in New York City. The last two fields, shape_area and shape_leng hold the data that tells QGIS what the placement and shape of each feature is. These should almost never be edited. 
 
-If you need to edit other data--let's say there was a typo in one of the borough names, you can toggle editing mode by clicking the **pencil icon** in the top left corner of the attribute table window. Click the pencil icon and hover over the buttons to the right of the pencil to briefly learn about the tools for editing the Attribute Table. Be sure to not click any of these tools. Turn off editing mode by clicking the pencil icon again.  Close the Attribute Table. 
+If you need to edit other data--let's say there was a typo in one of the neighborhood names, you can toggle editing mode by clicking the **pencil icon** in the top left corner of the attribute table window. Click the pencil icon and hover over the buttons to the right of the pencil to briefly learn about the tools for editing the Attribute Table. Be sure to not click any of these tools. Turn off editing mode by clicking the pencil icon again.  Close the Attribute Table. 
 
 Open the 311_Service_Requests Table. Just like the Neighborhoods attribute table, this table has fields in the columns, and has entries for every noise complaint in each row. Scroll to the right to explore the different fields, taking note of Agency, Descriptor, X Coordinate, and Y Coordinate. Close the table.
 
