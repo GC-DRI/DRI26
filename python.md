@@ -24,7 +24,8 @@ prerequisites:
         recommended: true
 
 instructors: 
-    - 'Parisa Setayesh'
+    - 'Zachary Lloyd'
+    - 'Meha Gupta'
 
 authors:
     - 'Kalle Westerling'
@@ -38,6 +39,7 @@ editors:
     - 'Di Yoong'
     - 'Lisa Rhody' 
     - 'Stephen Zweibel'
+    - 'Zachary Lloyd'
 
 readings:
     - Want to learn programming, but not convinced that the Python language is the right language? Check out [Reasons why you should learn Python](https://www.geeksforgeeks.org/reasons-why-you-should-learn-python/)
