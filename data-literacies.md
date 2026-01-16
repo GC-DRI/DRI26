@@ -165,8 +165,8 @@ There are many ways to represent data, just as there are many sources of data. W
 <!-- TODO: update this list / fix formatting (works in Markdown but not in page display) -->
 
 <br />
+A small list of open multimedia formats:
 <table>
-  <caption><strong>A small list of open multimedia formats:</strong></caption>
   <thead>
     <tr>
       <th>Form</th>
