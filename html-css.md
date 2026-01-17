@@ -827,6 +827,8 @@ Here is again the HTML code for the boiler story.
 <!-- <Info>__Tip:__
 You can also save this file on our computer and give it a custom name. When saving files for local directories, give the file a simple name. The name **cannot** have spaces (this will produce errors). A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info> -->
 
+And here is the element we are going to want to add.
+
 ```html
 <img alt="An image of a boiler" src="https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg" />
 ```
