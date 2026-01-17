@@ -802,6 +802,27 @@ Here we will use an image linked to this lesson's source code on Github.
 
 The absolute link to the image file is [here](https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg).
 
+Here is again the HTML code for the boiler story.
+
+```html
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>A boring story</title>
+    </head>
+
+    <body>
+        <h1>
+            Cleaning my boiler
+        </h1>
+        <p>
+            When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.
+        </p>
+    </body>
+
+</html>
+```
 
 <!-- <Info>__Tip:__
 You can also save this file on our computer and give it a custom name. When saving files for local directories, give the file a simple name. The name **cannot** have spaces (this will produce errors). A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info> -->
