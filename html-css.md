@@ -1252,69 +1252,6 @@ Create a stylesheet for your html file. You can try this with the code editor he
 
 5. See what changed?
 
-
-
-<!-- TODO: Migrate this to end?
-
-3. Click the `Download All Files` button.
-
-4. Locate the `style.css` file in your `Downloads` folder and move it to your `htmlprojects` folder.
-
-5. Link your stylesheet with your `index.html` file.
-
-Insert the following code into the `<head>` element of that `index.html` file:
-
-```html
-<link rel="stylesheet" href="style.css" />
-```
-
-6. Save your `index.html` file and open it in your browser. Do you notice anything different? -->
-
-<!-- TODO: Migrate this to end section?
-
- ## Optional: Advanced Challenge
-
-You can also do this with your command line.
-
-Create a stylesheet for your website using the command line (following option 3, external styling, described above). In your `index.html` document, link to your style sheet and re-save the file.
-
-Make sure you're in the `projects` folder
-
-```console
-$ cd ~/Desktop/htmlpractice/projects
-```
-
-Create `style.css`
-
-```console
-$ touch style.css
-```
-
-Open `style.css` in VS Code
-
-```console
-$ code style.css```
-
-To link your stylesheet with your `index.html` file, insert the following code into the `<head>` element of that `index.html` file:
-
-```html
-<link rel="stylesheet" href="style.css" />
-```
-
-The `style.css` file will then contain style information, such as this
-
-```css
-     h1 {
-        color: solid red;
-        text-decoration: underline;
-    
-    }
-    p {
-        color: violet;
-        font-family: cursive;
-    }
-``` -->
-
 ## Evaluation
 
 Is the following code-snippet an example of **inline styling** or **internal styling**?  
