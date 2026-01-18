@@ -16,14 +16,15 @@ authors:
     - 'Patrick Smyth'
 
 instructors:
-    - 'Ian G. Williams'
+    - 'Stefano Morello'
 
 editors:
     - 'Ian G. Williams'
+    - 'Stefano Morello'
 
 # facilitators: 
-#     name: 'Ian G. Williams'
-#     description: "Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. A licensed social worker, Ian has a strong foundation in the humanities. He likes to hang out with digital humanists and public interest technologists. Ian's first experiences with HTML date back to creating a website for his band back in the early 2000s."
+#     name: 'Stefano Morello'
+#     description: "Stefano Morello is the Assistant Director for Digital Projects at the Center for Media and Learning of the CUNY Graduate Center. His scholarly work combines digital and traditional methods to investigate the infrastructure and the transnational reverberations of American popular and unpopular culture."
 
 estimated time:
     - 1-2 hours
