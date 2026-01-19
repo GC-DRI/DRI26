@@ -53,10 +53,7 @@ projects:
     - The NEH Impact Index:
         description: Built by former Digital Fellow Patrick Smyth, The NEH Impact Index makes visible the distribution of funds by National Endowment for the Humanities across the United States. The website uses python to map projects, communities, and cultural institutions who have received NEH support. You can check out the code on Github.
         link: https://gcdi.commons.gc.cuny.edu/2017/04/10/exploring-the-local-impact-of-the-neh-neh-impact-index/
-    - Mapping Arts NYC: 
-        description: Mapping Arts NYC, created in 2019 by the Graduate Center’s Data for Public Good fellows, “is a project that explores the geography and representation of arts and culture in New York City over time.” It includes a number of Python scripts written to clean and make sense of all the data.
-        link: http://gcdiprojects.org/MappingArtsNYC/
-        
+
 resources:
     - Python resource recommendations: 
         description: See this post by the Digital Fellows for some useful resources for building your Python skills.
@@ -451,9 +448,11 @@ add_one(-1)
 
 Do you notice how the function printed the sum of each of these numbers plus one? Writing this function helped us to automate this simple process of addition for each given input! Granted, creating a whole function just to add "one" to something may seem unnecessarily complicated, but once you have learned the basics of function-writing, the possibilities are powerful and limitless!
 
+To further understand the structure and syntax of functions, [see this useful graphic](https://pynative.com/wp-content/uploads/2022/08/python_function_argument_and_parameter.jpg).
+
 ### Returning
 
-Note that writing a function this way only prints the result, but does not actually `return` it. Read more about the difference between `print` and `return` [here](https://pythonprinciples.com/blog/print-vs-return/). If we wanted our function to actually perform the operation AND print it, we could revise our code as follows:
+Note that writing a function this way only prints the result, but does not actually `return` it. In other words, we have no way of actually "capturing" the output for later use when we simply print it. Returning a value from a function gives us the ability to save the output of a function to a variable, or use it in further calculations. Read more about the difference between `print` and `return` [here](https://pythonprinciples.com/blog/print-vs-return/). If we wanted our function to actually perform the operation AND print it, we could revise our code as follows:
 
 ```python
 def add_one(x):
@@ -1439,7 +1438,7 @@ What is a module? Select all that apply:
 <Quiz>
 - A module is a file of code.*
 - Applications can incorporate many different modules.*
-- A module needs to be downloaded and installed.
+- Python comes with many built-in modules you can use.*
 - A module needs to be imported with an `import` statement.*
 </Quiz>
 
