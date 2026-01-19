@@ -261,26 +261,9 @@ To display the DataFrame, we can run a cell with the variable name of the DataFr
 refugee_df
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
+<table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>year</th>
       <th>origin</th>
@@ -290,98 +273,20 @@ refugee_df
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th>0</th>
-      <td>2005</td>
-      <td>Afghanistan</td>
-      <td>Alabama</td>
-      <td>Mobile</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2006</td>
-      <td>Afghanistan</td>
-      <td>Alabama</td>
-      <td>Mobile</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2007</td>
-      <td>Afghanistan</td>
-      <td>Alabama</td>
-      <td>Mobile</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2008</td>
-      <td>Afghanistan</td>
-      <td>Alabama</td>
-      <td>Mobile</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2009</td>
-      <td>Afghanistan</td>
-      <td>Alabama</td>
-      <td>Mobile</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>121240</th>
-      <td>2011</td>
-      <td>Vietnam</td>
-      <td>Wisconsin</td>
-      <td>Milwaukee</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>121241</th>
-      <td>2012</td>
-      <td>Vietnam</td>
-      <td>Wisconsin</td>
-      <td>Milwaukee</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>121242</th>
-      <td>2013</td>
-      <td>Vietnam</td>
-      <td>Wisconsin</td>
-      <td>Milwaukee</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>121243</th>
-      <td>2014</td>
-      <td>Vietnam</td>
-      <td>Wisconsin</td>
-      <td>Milwaukee</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>121244</th>
-      <td>2015</td>
-      <td>Vietnam</td>
-      <td>Wisconsin</td>
-      <td>Milwaukee</td>
-      <td>0</td>
-    </tr>
+    <tr><td>0</td><td>2005</td><td>Afghanistan</td><td>Alabama</td><td>Mobile</td><td>0</td></tr>
+    <tr><td>1</td><td>2006</td><td>Afghanistan</td><td>Alabama</td><td>Mobile</td><td>0</td></tr>
+    <tr><td>2</td><td>2007</td><td>Afghanistan</td><td>Alabama</td><td>Mobile</td><td>0</td></tr>
+    <tr><td>3</td><td>2008</td><td>Afghanistan</td><td>Alabama</td><td>Mobile</td><td>0</td></tr>
+    <tr><td>4</td><td>2009</td><td>Afghanistan</td><td>Alabama</td><td>Mobile</td><td>5</td></tr>
+    <tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+    <tr><td>121240</td><td>2011</td><td>Vietnam</td><td>Wisconsin</td><td>Milwaukee</td><td>0</td></tr>
+    <tr><td>121241</td><td>2012</td><td>Vietnam</td><td>Wisconsin</td><td>Milwaukee</td><td>4</td></tr>
+    <tr><td>121242</td><td>2013</td><td>Vietnam</td><td>Wisconsin</td><td>Milwaukee</td><td>2</td></tr>
+    <tr><td>121243</td><td>2014</td><td>Vietnam</td><td>Wisconsin</td><td>Milwaukee</td><td>0</td></tr>
+    <tr><td>121244</td><td>2015</td><td>Vietnam</td><td>Wisconsin</td><td>Milwaukee</td><td>0</td></tr>
   </tbody>
 </table>
-<p>121245 rows × 5 columns</p>
-</div>
+<p><em>121,245 rows × 5 columns</em></p>
 
 
 

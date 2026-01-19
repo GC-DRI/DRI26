@@ -16,14 +16,15 @@ authors:
     - 'Patrick Smyth'
 
 instructors:
-    - 'Ian G. Williams'
+    - 'Stefano Morello'
 
 editors:
     - 'Ian G. Williams'
+    - 'Stefano Morello'
 
 # facilitators: 
-#     name: 'Ian G. Williams'
-#     description: "Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. A licensed social worker, Ian has a strong foundation in the humanities. He likes to hang out with digital humanists and public interest technologists. Ian's first experiences with HTML date back to creating a website for his band back in the early 2000s."
+#     name: 'Stefano Morello'
+#     description: "Stefano Morello is the Assistant Director for Digital Projects at the Center for Media and Learning of the CUNY Graduate Center. His scholarly work combines digital and traditional methods to investigate the infrastructure and the transnational reverberations of American popular and unpopular culture."
 
 estimated time:
     - 1-2 hours
@@ -802,9 +803,32 @@ Here we will use an image linked to this lesson's source code on Github.
 
 The absolute link to the image file is [here](https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg).
 
+Here is again the HTML code for the boiler story.
+
+```html
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>A boring story</title>
+    </head>
+
+    <body>
+        <h1>
+            Cleaning my boiler
+        </h1>
+        <p>
+            When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.
+        </p>
+    </body>
+
+</html>
+```
 
 <!-- <Info>__Tip:__
 You can also save this file on our computer and give it a custom name. When saving files for local directories, give the file a simple name. The name **cannot** have spaces (this will produce errors). A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info> -->
+
+And here is the element we are going to want to add.
 
 ```html
 <img alt="An image of a boiler" src="https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg" />
@@ -1228,69 +1252,6 @@ Create a stylesheet for your html file. You can try this with the code editor he
 4. Change the color for **`h1`** to `transparent`.
 
 5. See what changed?
-
-
-
-<!-- TODO: Migrate this to end?
-
-3. Click the `Download All Files` button.
-
-4. Locate the `style.css` file in your `Downloads` folder and move it to your `htmlprojects` folder.
-
-5. Link your stylesheet with your `index.html` file.
-
-Insert the following code into the `<head>` element of that `index.html` file:
-
-```html
-<link rel="stylesheet" href="style.css" />
-```
-
-6. Save your `index.html` file and open it in your browser. Do you notice anything different? -->
-
-<!-- TODO: Migrate this to end section?
-
- ## Optional: Advanced Challenge
-
-You can also do this with your command line.
-
-Create a stylesheet for your website using the command line (following option 3, external styling, described above). In your `index.html` document, link to your style sheet and re-save the file.
-
-Make sure you're in the `projects` folder
-
-```console
-$ cd ~/Desktop/htmlpractice/projects
-```
-
-Create `style.css`
-
-```console
-$ touch style.css
-```
-
-Open `style.css` in VS Code
-
-```console
-$ code style.css```
-
-To link your stylesheet with your `index.html` file, insert the following code into the `<head>` element of that `index.html` file:
-
-```html
-<link rel="stylesheet" href="style.css" />
-```
-
-The `style.css` file will then contain style information, such as this
-
-```css
-     h1 {
-        color: solid red;
-        text-decoration: underline;
-    
-    }
-    p {
-        color: violet;
-        font-family: cursive;
-    }
-``` -->
 
 ## Evaluation
 

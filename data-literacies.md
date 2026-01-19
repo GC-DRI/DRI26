@@ -165,69 +165,75 @@ There are many ways to represent data, just as there are many sources of data. W
 <!-- TODO: update this list / fix formatting (works in Markdown but not in page display) -->
 
 <br />
+A small list of open multimedia formats:
 <table>
-    <caption><strong>A small list of open multimedia formats (more information of each file format is linked in their entries):</strong></caption>
+  <thead>
     <tr>
-        <th>Form</th>
-        <th>Format</th>
-        <th>Common file extensions</th>
+      <th>Form</th>
+      <th>Format</th>
+      <th>Common file extensions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="3">Images</th>
+      <td><a href="https://www.lifewire.com/tif-tiff-file-2622393">TIFF</a> (Tagged Image File Format)</td>
+      <td><code>.tiff</code>, <code>.tif</code></td>
     </tr>
     <tr>
-        <th rowspan="3">Images</th>
-        <td><a href="https://www.lifewire.com/tif-tiff-file-2622393">TIFF</a> (Tagged Image File Format) </td>
-        <td>`.tiff`, `.tif`</td>
+      <td><a href="https://en.wikipedia.org/wiki/JPEG_2000">JPEG2000</a></td>
+      <td><code>.jp2</code>, <code>.jpf</code>, <code>.jpx</code></td>
     </tr>
     <tr>
-        <td><a href="https://en.wikipedia.org/wiki/JPEG_2000">JPEG2000</a></td>
-        <td>`.jp2`, `.jpf`, `.jpx`</td>
+      <td><a href="http://www.libpng.org/pub/png/pngintro.html">PNG</a> (Portable Network Graphics)</td>
+      <td><code>.png</code></td>
     </tr>
     <tr>
-        <td><a href="http://www.libpng.org/pub/png/pngintro.html">PNG</a> (Portable Network Graphics)</td>
-        <td>`.png`</td>
+      <th rowspan="3">Text</th>
+      <td><a href="https://help.ceda.ac.uk/article/4429-ascii-formats">ASCII</a> (American Standard Code for Information Interchange)</td>
+      <td><code>.ascii</code>, <code>.dat</code>, <code>.txt</code></td>
     </tr>
     <tr>
-        <th rowspan="3">Text</th>
-        <td><a href="https://help.ceda.ac.uk/article/4429-ascii-formats">ASCII</a>  (American Standard Code for Information Interchange)</td>
-        <td>`.ascii`, `.dat`, `.txt`</td>
+      <td><a href="https://en.wikipedia.org/wiki/PDF">PDF</a> (Portable Document Format)</td>
+      <td><code>.pdf</code></td>
     </tr>
     <tr>
-        <td><a href="https://en.wikipedia.org/wiki/PDF">PDF</a> (Portable Document Format)</td>
-        <td>`.pdf`</td>
+      <td><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> (Comma-Separated Values)</td>
+      <td><code>.csv</code></td>
     </tr>
     <tr>
-        <td><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> (Comma-Separated Values</td>
-        <td>`.csv`</td>
+      <th rowspan="2">Audio</th>
+      <td><a href="https://xiph.org/flac/index.html">FLAC</a> (Free Lossless Audio Codec)</td>
+      <td><code>.flac</code></td>
     </tr>
     <tr>
-        <th rowspan="2">Audio</th>
-        <td><a href="https://xiph.org/flac/index.html">FLAC</a> (Free Lossless Audio Codec)</td>
-        <td>`.flac`</td>
+      <td><a href="https://xiph.org/ogg/">ogg</a></td>
+      <td><code>.ogg</code></td>
     </tr>
     <tr>
-        <td><a href="https://xiph.org/ogg/">ogg</a></td>
-        <td>`.ogg`</td>
+      <th>Video</th>
+      <td><a href="https://www.lifewire.com/mp4-file-2622024">MPEG-4</a></td>
+      <td><code>.mp4</code></td>
     </tr>
     <tr>
-        <th rowspan="1">Video</th>
-        <td><a href="https://www.lifewire.com/mp4-file-2622024">MPEG-4</a></td>
-        <td>`.mp4`</td>
+      <th rowspan="3">Others</th>
+      <td><a href="https://www.w3schools.com/xml/xml_whatis.asp">XML</a> (Extensible Markup Language)</td>
+      <td><code>.xml</code></td>
     </tr>
     <tr>
-        <th rowspan="3">Others</th>
-        <td><a href="https://www.w3schools.com/xml/xml_whatis.asp">XML</a> (Extensible Markup Language)</td>
-        <td>`.xml`</td>
+      <td><a href="https://www.json.org/json-en.html">JSON</a> (JavaScript Object Notation)</td>
+      <td><code>.json</code></td>
     </tr>
     <tr>
-        <td><a href="https://www.json.org/json-en.html">JSON</a> (JavaScript Object Notation)</td>
-        <td>`.json`</td>
+      <td><a href="https://www.3dsystems.com/quickparts/learning-center/what-is-stl-file">STL</a> (STereoLithography—used in 3D modeling)</td>
+      <td><code>.stl</code></td>
     </tr>
+  </tbody>
+  <tfoot>
     <tr>
-        <td><a href="https://www.3dsystems.com/quickparts/learning-center/what-is-stl-file">STL</a> (STereoLithography file format—used in 3D modeling)</td>
-        <td>`.stl`</td>
+      <td colspan="3"><em>For a list of file formats, see the Library of Congress' <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#">Sustainability of Digital Formats</a>.</em></td>
     </tr>
-    <tr>
-        <th colspan="3"> For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
-    </tr>
+  </tfoot>
 </table>
 
 ## The Importance of Using Open Data Formats
