@@ -375,13 +375,13 @@ The command `pwd`, which stands for 'print working directory,' allows you to kno
 
 Note that we are using the word 'directory' interchangeably with 'folder.' They both refer to the same thing, even though the folder is the container and the directory  is how it relates to the hierarchy in the file system. 
 
-Previously we shared a diagram of the file system. You might be familiar with this representation through the GUI of your favorite operative system. For example, we illustrate below with an image of the MacOS file explorer: 
+Previously, we shared a diagram of the file system. You might be familiar with this representation through the GUI of your favorite operating system. For example, we illustrate below with an image of the MacOS file explorer: 
 
 ![Screen shot of the icons of folders organized as a tree of the filesystem MacOS](/images/command-line/hierarchical-filesystem-example.png "An example of how a hierarchical filesystem looks")
 
 Upper in the hierarchy, there are directories that we do not see in this representation. There's a top-level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The `root` or highest-level folder contains mostly files for the operating system, and we usually don't have to go there. These folders are called just `/` on macOS and are called `C:` on Windows. 
 
-When you execute `pwd` in your computer, the output will be similar to `/Users/your-username`. It means you're in the `your-username` directory in the `Users` folder inside the `root` directory. This directory is often called the `home`, as our output in the emulator: 
+When you execute `pwd` on your computer, the output will be similar to `/Users/your-username`. It means you're in the `your-username` directory in the `Users` folder inside the `root` directory. This directory is often called the `home`, as our output in the emulator: 
 
 ```console
 /home/user 
@@ -399,7 +399,7 @@ $ ls
 
 In this command, `ls` stands for list. It is a request to print the list of the contents of your current working directory. 
 
-The output is the list of folders and files contained by the directory. Usually, it might include folders such as `Documents`, and `Desktop`, and you may also see some files. In the case of the emulator, you should see `command-line-treasure-hunt` and `data`. 
+The output is the list of folders and files contained in the directory. Usually, it might include folders such as `Documents`, and `Desktop`, and you may also see some files. In the case of the emulator, you should see `command-line-treasure-hunt` and `data`. 
 
 **Are you wondering what's in `data`?** Let's access the folder with the following command:
 
@@ -459,9 +459,9 @@ Cataloging structure that organizes the folders within the file system hierarchy
 A unit to store data as bytes on a storage device, such as a hard drive, which can be accessed by a computer.
 
 - File system (or filesystem)
-Hierarchical method to organize the information in the computers composed of files and folders. 
+Hierarchical method to organize the information in computers, composed of files and folders. 
 
--Folder
+- Folder
 A storage space that contains files and other folders.
 </Keywords>
 
