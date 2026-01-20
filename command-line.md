@@ -346,7 +346,7 @@ As we mentioned, the file system dates from the 1960s. At that time, only a limi
 
 ![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
 
-As computers became smaller, anyone -with the purchasing power- could take home.  For many of these new users, the metaphor might have been more distant. However, files and folders were pretty common, and the users could relate to them. So, even if part of the information structure got fuzzy, the metaphor of the objects as a means to keep order was useful as one computer was shared per household or office. Later on, individuals started to have laptops as their personal digital space. And it is no secret that not everyone keeps their room tidy! 
+As computers became smaller, anyone -with the purchasing power- could take one home. For many of these new users, the metaphor might have been more distant. However, files and folders were pretty common, and the users could relate to them. So, even if part of the information structure got fuzzy, the metaphor of the objects as a means to keep order was useful as one computer was shared per household or office. Later on, individuals started to have laptops as their personal digital space. And it is no secret that not everyone keeps their room tidy! 
 
 ![A smartphone being hold by someone in their hand](/images/command-line/pexels-mohi-syed-50614.jpg)
 
