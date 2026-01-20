@@ -53,9 +53,9 @@ resources:
 
 When we think of "research data," we often think of numbers, things that can be summarized, statisticized, summed/subtracted, multiplied/divided, and charted. 
 
-In _Data Ethics_, we covered what data is, which can include text. Whether it's 'Moby Dick,' every romance novel written since 1750, or today's newspaper or Twitter feed, we can transform both written and spoken language into data that can be quantified and visualized.
+In _Data Literacies and Ethics_, you covered what data is, which can include text. Whether it's 'Moby Dick,' every romance novel written since 1750, or today's newspaper or Twitter feed, we can transform both written and spoken language into data that can be quantified and visualized.
 
-This workshop approaches text analysis similar to introductions to quantitative analysis, starting with text analysis equivalents of the basics like mean, median, and mode. 
+This workshop approaches text analysis in an exploratory way, starting with some questions: 
 
  * What are basic ways to think about text as data?
  * How do we get text ready to be analyzed?
@@ -66,29 +66,31 @@ This workshop approaches text analysis similar to introductions to quantitative 
 <Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/text-analysis/TextAnalysis.ipynb' />
 
 
-## Corpora
+## Corpus
 
-<Info>A corpus is, simply put, a text under study or a set of texts to study (the plural is corpora) [Source](https://libguides.tulane.edu/text_analysis/corpora)
+<Info>A *corpus* is, simply put, a text under study or a set of texts to study (the plural is *corpora*) [Source](https://libguides.tulane.edu/text_analysis/corpora)
 </Info>
 
 That is, *any* collection of texts that are somehow related to each other. 
 
-In your own research, as we’ve learned in the Data Ethics, the relationship between corpus selection and research question is iterative. 
+In your own research, as you’ve learned in the _Data Literacies and Ethics_, the relationship between *corpus* selection and research question is iterative. 
 
-However, in this workshop, we will set aside the larger theoretical questions regarding corpus selection and focus on demonstrating the basics using a commonly used, publicly available set of texts for our corpus.
+However, in this workshop, we will set aside the larger theoretical questions regarding *corpus* selection and focus on demonstrating the basics using a commonly used, publicly available set of texts for our *corpus*.
 
-There are infinitely many corpora, and, sometimes, you will want to make your own—that is, one that best fits your research question.
+There are infinitely many *corpora*, and, sometimes, you will want to make your own—that is, one that best fits your research question.
 
-<p style="text-align: center;">What’s an example of textual corpora in your field of research?
+<p style="text-align: center;">What’s an example of textual *corpora* in your field of research?
 </p>
 
 ## A Note About Languages
 
-Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. No citation needed, just the whole body of post-structuralist scholarship. 
+Languages are inherently social. They are shaped by history, power, migration, education, and inequality and they carry the power dynamics that come with any social phenomenon. Those same dynamics don’t disappear when language becomes data. They show up again in the tools we use to analyze text.
+Many existing tools for textual analysis (including NLTK, which we’re using in this workshop) support multiple languages thanks to the impressive work of the Python text analysis community. But that support is _uneven_. Some languages are better represented, better resourced, and better supported than others, depending on the task.
+This unevenness isn’t linguistic. It doesn’t reflect how complex or expressive a language is. It reflects patterns of data availability, institutional investment, and whose language practices have historically been treated as worthy.
+The good news is that this landscape is slowly changing. Multilingual support is expanding, tools are becoming more sophisticated, and community-driven contributions continue to improve coverage. At the same time, it’s important to remember that technical limitations often mirror social ones.
+Recognizing this connection helps us treat text analysis tools not as neutral instruments, but as technologies embedded in social contexts and that awareness should also inform how we interpret our results.
 
-Many existing tools for textual analysis, including the NLTK package used in this workshop, support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
-
-<Info>**Fun fact**: What five languages most frequently used for web content as of 2023, by share of websites [(Source)](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/)?
+<Info>**(not so) Fun fact**: What five languages most frequently used for web content as of 2023, by share of websites [(Source)](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/)?
 
 * English at 58.8%
 * Russian at 5.3%
@@ -116,10 +118,8 @@ Which of the following could be considered a corpus?
 
 ## Keywords
 
-Do you remember the glossary terms from this section? 
-
-- [NLTK](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/nltk.md)
 - **Libraries** are sets of instructions that Python can use to perform specialized functions. The Natural Language ToolKit (`nltk`) is one such library. As the name suggests, its focus is on language processing.
+- [NLTK](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/nltk.md)
 
 
 # Using the NLTK Corpus
@@ -220,7 +220,7 @@ Huh that's interesting, what does that mean?
 
 These text objects are a special type of python object specific to NLTK (it isn't a string, list, or dictionary). 
 
-At the end of this workshop, we will make our own corpus, which will demonstrate how "processed" this NLTK text object is.
+We won’t get to build a corpus together today, but by the end of the workshop you’ll understand what goes into creating one and how much preprocessing is already built into the NLTK text objects we’re using. You’ll be able to try it on your own afterward.
 
 Let's check out what is in the object. Let’s look at the first 10 elements in this object...
 
@@ -230,15 +230,9 @@ text3[0:10]
 
 Pop quiz: 
 
-1. This may be the most famous <u> number of words </u>  in the Western canon. 
+1. As far as we can tell, is this text structured...?
 
-<Secret>
-10! Get the elements from position 0 to position 10 (not included)
-</Secret>
-
-2. As far as we can tell, is this text structured...?
-
-*Recall the Data Ethics workshop section on structured data.*
+*Recall the Data Literacies and Ethics workshop section on structured data.*
 
 <Secret>
 No, it is not organized or structured in a well-defined way or according to any rules. It appears to be just a list of all the words in the book. The text is not arranged in rows or columns, for example.
@@ -250,41 +244,38 @@ So what we'll be doing the rest of the workshop is to whittle down this text to 
 
 <Info>If you got any error messages, check the code and make sure you typed everything correctly. Even spaces before words matter!</Info>
 
-## Keywords
-
-Do you remember the glossary terms from this section?
-
-- [Corpus](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/corpus.md)
-- [Library](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/library.md)
-- [Matplotlib](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/matplotlib.md)
-
-# Conceptualization
+# STEP 1: Conceptualization
+When we approach a text we want to analyze, the first step is conceptualization. Before we write any code, count any words, or make any plots, we need to stop and ask: what is it that we are actually looking for in this text?
 
 Pick a text, text1 through text9, and think about its topic. 
 
-Some of these texts, such as the _Book of Genesis_ or a collection of _Inaugural Addresses of US Presidents_, come with preconceived notions. These notions are often shaped by cultural, societal, and popular perceptions and references.
+Some of these texts, such as the _Book of Genesis_ or a collection of _Inaugural Addresses of US Presidents_, come with strong expectations attached to them. Even before we read a single word, we think we know what themes, values, or ideas we are likely to find. Those expectations are shaped by culture, education, history, and popular discourse.
+In research these expectations are not a problem, but they need to be made explicit. They are our **initial assumptions**
 
-In our own research, these preconceived notions constitute **theory**. 
-
-<Info>Based on THEORY, what can we expect from a dataset about ice cream consumption and temperature? I'm trying to think of the least controversial question possible.
+<Info>What initial assumptions can one have from a dataset about ice cream consumption and temperature? 
 </Info>
 
-The conceptualization stage of research is *defining* the concept of our research question.
- 
-Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research.
+Conceptualization is the stage of research where we surface those initial assumptions and, at the same time, *define* the concepts we care about and how we expect them to appear in language.
+
+A key guiding question at this stage is: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research.
 [Source](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
 
 Example: Suppose we want to examine the concept of patriotism in the Inaugural Addresses corpus. We find that political theorist, Maurizio Viroli, defines the "language of patriotism" as "been used over the centuries to strengthen or invoke love of political institutions and the way of life that sustains the common liberty of a people, that is love of the republic." [Source](https://academic.oup.com/book/12461)
 
-# Searching for the Words
+# Tools: concordance() & similar()
 
-What should we do with this definition of patriotism?
+Once we have a conceptual definition (like Viroli’s definition of patriotism) the next step is to ask a practical question:
+*Does this idea actually show up in the text? And if it does, how is the word used?*
+To do that, we need ways of looking at how words are actually used in context.
 
-The first function we will look at is `concordance`. "Concordance" in this context means the characters on either side of the word. 
+The first function we will look at is `concordance`. In this context, concordance means showing the words (or, more precisely, the characters) that appear immediately around a target word. Our text is treated as one long string, so by default NLTK shows 25 characters on each side of the word (including spaces), but [you can change that if you want](http://www.nltk.org/_modules/nltk/text.html#Text.concordance).
 
-Our text is behaving like one giant string, so concordance will just count the number of characters on either side. By default, this is 25 characters on either side of our target word (including spaces), but [you can change that if you want](http://www.nltk.org/_modules/nltk/text.html#Text.concordance).
+This matters because meaning lives in context. Concordance lets us see:
+- what kinds of words tend to appear near a term;
+- whether a word is used consistently or in multiple ways;
+- whether our initial assumptions line up with actual usage.
 
-In the next JupyterLite cell, try:
+Virioli said that patriotism can be defined as *"love of the Republic"*. In the next JupyterLite cell, try:
 
 ```python
 text4.concordance("love")
@@ -292,9 +283,11 @@ text4.concordance("love")
 
 The output shows us the 25 characters on either side of the word "love" in _Inaugural Addresses of US Presidents_. Let's try this with another word, "patriotism." Just replace the word "love" with "patriotism," and we get the contexts in which Presidents uses "patriotism" in their speeches.
 
-Our question maybe, is the way "love" is used similar to how "patriotism" is used?
+*Do these results match what you expected?*
 
-Let's now see whether "love" and "patriotism" share similar neighbor words. NLTK has a built-in function for this as well: `similar`.
+From these results, we could become curious to see whether "love" is used similarly to "patriotism".
+
+One way we could do this, is checking to see if "love" and "patriotism" share similar neighbor words. NLTK has a built-in function for this: `similar`.
 
 ```python
 text4.similar("love")
@@ -309,21 +302,26 @@ text4.similar("patriotism")
 They actually don't share the same contexts - "patriotism" does not show up on the list of similar words for "love". But "people", "government", "confidence", "freedom" showed up on both lists. Perhaps this is how patriotism relates to love -- through these concepts. 
 </Secret>
 
-## Operationalization
+## STEP 2: Operationalization
 
-After conceptualization, we measure for these concepts: reach for the empirical. 
+In the previous section, we asked whether our concept (in this case, patriotism) actually shows up in the text, and how it is expressed through language in context. We explored where words appear, what surrounds them, and how they behave relative to other terms. That exploratory work sets us up for the next step: operationalization.
 
-"Choices made during this phase are always tied to the question “Are we
-measuring what we intend to measure?” Does our operationalization match
-our conceptual definition? To ensure validity we must recognize gaps between
-what is important and what is easy to measure." [Source](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
+Operationalization is the phase where we decide how to turn those observations into something we can systematically measure. In other words, this is where we move from seeing patterns to defining indicators for the concept we care about.Importantly, this is not a one-way move. Operationalization is an iterative process. We propose a way of measuring the concept, test it against the text, compare the results to our conceptual definition, and revise as needed.
 
-As good researchers, we know that we must make a strong theoretical and empirical case for why what we're measuring reflects our concept. 
+At this stage, a key question guides every decision: *Are we measuring what we intend to measure?*
+This question forces us to reflect on the gap between:
+- what is theoretically meaningful
+- what is computationally easy to count
 
-"When a measure becomes a target, it ceases to be a good measure" - [Goodhart's law](https://arxiv.org/pdf/1803.04585.pdf)
+For example, frequency, proximity, and repetition are easy to operationalize, but they may only capture part of a complex concept like patriotism. That’s why operationalization often requires multiple passes: adjusting indicators, revisiting earlier assumptions, and sometimes returning to the conceptualization stage.
 
-<Info>Maybe paying per captured cobra head isn't the best way to incentivize eradication of cobras?</Info>
-<!-- this doesn't make any sense-->
+In the next section, we’ll look at several common computational approaches to operationalization, along with their strengths and limitations — keeping in mind that these choices are always provisional and open to revision.
+
+<Info>Suppose we want to use the word love as an indicator of patriotism, based on the idea that patriotism involves love of the Republic.
+We might initially operationalize this by counting how often the word love appears in the corpus.
+But if, when we look at the concordance, we discover that love is mostly used to refer to romantic or personal relationships, then this operationalization fails. It may be easy to measure, but it does not capture the kind of love that our concept of patriotism requires.
+At that point, we need to revise our operationalization -- for example, by choosing a different indicator.
+This is exactly why operationalization is iterative: what is easy to count is not always what we actually mean.</Info>
 
 ## Evaluation
 
@@ -341,11 +339,20 @@ Do you remember the glossary terms from this section?
 - [Concordance](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/concordance.md)
 
 
-# Positioning Words
+# Tools : dispersion_plot()
 
-In many ways, `concordance` and `similar` are heightened word searches that tell us something about what is happening near the target words. 
+So far, we’ve focused on local context.
+Using `concordance` we looked closely at how a word is used in individual passages. Using `similar` we stepped back slightly to see which other words tend to appear in comparable contexts. Both methods help us understand how a word behaves and what kinds of concepts it is associated with. But we can zoom out even further!
 
-Another metric we can use is to visualize where the words appear in the text. In the case of _Moby Dick_, we want to compare where "whale" and "monster" appear throughout the text. In this case, the text is functioning as a list of words, and will make a mark where each word appears, offset from the first word. We will _pass_ this _function_ a _list_ of _strings_ to plot. In the next cell, type:
+Instead of asking what appears near a word, we can ask:
+- Where does this word appear across the text as a whole?
+- Is it evenly distributed, or concentrated in specific sections?
+- Do related words follow similar patterns, or do they behave differently?
+
+This is where dispersion plots come in.
+A dispersion plot treats the text as a sequence of words and marks each position where a target word occurs. Rather than showing meaning through context, it shows distribution through space — where words cluster, where they are absent, and how their usage changes over the course of the text.
+
+ In the case of _Moby Dick_, let's imagine that we want to compare where "whale" and "monster" appear throughout the text. In this case, the text is functioning as a list of words, and will make a mark where each word appears, offset from the first word. We will _pass_ this _function_ a _list_ of _strings_ to plot. In the next cell, type:
 
 ```python
 text1.dispersion_plot(["whale", "monster"])
@@ -364,9 +371,6 @@ Why might a tool like this be useful? A graph should appear with a tick mark eve
 ## Challenge
 
 Pick another text with a few words you want to compare. You can compare an unlimited number, but it's easier to read a few at a time. 
-
-<Info>Note that the comma in our writing here is _inside_ the quotation mark, because that is how proper English grammar works. However, in Python, you would have to put commas _outside_ of the quotation marks to create a _list_.
-</Info>
 
 ## Solution
 
@@ -387,45 +391,48 @@ Check all sentences below that are correct:
 <Quiz>
 - You can get a visual representation of occurrences of a word with the `dispersion_plot` method.*
 - The `dispersion_plot` method allows you to input a list of strings, as long as you split them with commas.*
-- Contrary to grammatical rules, in a list of strings, the commas must come outside of the quotation marks.*
+- In a list of strings, the commas must come outside of the quotation marks.*
 </Quiz>
 
-# Types vs. Tokens
+# Make your analysis count
+Looking at the dispersion plot for Moby Dick, it looked like the word *monster* is used much more often than the word *whale*. That’s a reasonable impression: the plot for monster was much denser.
+But to test that claim, we need to move from a visual impression to a count. And to count properly, we need to be clear about what exactly we are counting.
 
-**Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo**
+This is where the distinction between **tokens** and **types** matters.
 
-How many words are there in this sentence?
+A token is every individual occurrence of a word in a text.
+So every time the word monster appears, that counts as one token. If it appears 200 times, that’s 200 tokens.
 
-Depends on whether you are asking whether words refers to tokens or types.
+A type is a unique word form.
+No matter how many times monster appears, it is still just one type.
 
-A word "token" is a particular appearance of a given word in a text, there are 8 instances of the word b/Buffalo. 
+In this case, the claim we want to test (“monster is used more than whale”) is a claim about tokens, not types. We are not asking how many different words there are; we are asking how often a specific word occurs.
+So to test the claim, we would count:
+- the number of monster tokens
+- the number of whale tokens
+The dispersion plot gave us a hypothesis based on distribution. Token counts let us verify it with numbers.
 
-A word "type" is the unique form of the word as a particular sequence of letters, which there are 2, "Buffalo" and "buffalo." 
-
-This terminology is important to understand how we cutting down our list to be more meaningful.
-
-How many words are in Moby Dick?
+First of all, let's see how many words are in Moby Dick:
 
 ```python
 len(text1)
 ```
 
-Let's find out how many times a given word appears in the corpus. In this case (and all cases going forward), our text will be treated as a list of words, using ‘count’ function. 
-
-
+Now, let's find out how many times "whale" appears in the corpus. In this case (and all cases going forward), our text will be treated as a list of words, using ‘count’ function. 
 
 ```python
 text1.count("whale")
 ```
 
-We see that "whale" occurs 906 times.
+We see that "whale" occurs 906 times. Do you think this counted all occurrences of the word?
+<Secret> Nope! </Secret>
 
-How about “Whale”?
+What could complicate this distinction?
+<Secret> Capitalization</Secret>
 
 ```python
 text1.count("Whale")
 ```
-How about “WHALE”?
 
 ```python
 text1.count("WHALE")
@@ -452,11 +459,24 @@ Bonus: That also means removing non-words (i.e. punctuation)
 
 </Secret>
 
-Why would we want each type to be treated the same way?
+Why would we want each type to be treated the same way? Is there any scenario where we would not want that?
 
-## Make a list of all the words lowercase!
+# Evaluation 
 
-Just like in cooking, let’s think about what we know and gather our ingredients to achieve our recipe: “Make a list of all the words lowercase”
+Look at this sentence:
+**Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo**
+How many tokens are there?
+<Quiz>
+- Eight *
+- Three
+- Two
+</Quiz>
+
+## Just let us cook!
+
+If we agree that Whale, whale, and WHALE should all be treated as the same word for our analysis, then the next step is to normalize the text so that the computer sees them that way too.
+This is where it helps to think in terms of a recipe.
+Just like in cooking, before we start combining ingredients or judging the final dish, we need to prep (in fancy terminology, we need to do *mise en place*). 
 
 [Mise en place](https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/)
 
@@ -513,8 +533,7 @@ _jazz hands_
 
 You just wrote your first for-loop!
 
-## Make a list of all the words lowercase with ONE LINE OF CODE
-
+## One line to lower-case them all
 
 Another way to perform the same action more succinctly is to use what's called a [list comprehension](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions). 
 
@@ -559,7 +578,6 @@ Check all sentences below that are correct:
 Do you remember the glossary terms from this section?
 
 - [Token](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/token.md)
-- [Tokenizing](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tokenizing.md)
 - [Type](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/type.md)
 
 # Length and Unique Words
@@ -593,9 +611,11 @@ How does the length of text1_tokens compare to original text1 object?
 len(text1)
 len(text1_tokens)
 ```
-From our list of tokens, how do we get a list of the types? AKA how do we want a list of unique words? 
-
-Why would that be analytically important?
+So far, we’ve been counting tokens (every word occurrence). But what if we want to know something different?
+For example:
+- How much vocabulary variety does this text have?
+- Does it rely on a small set of repeated words, or a large set of unique ones?
+To answer that, we need types, or unique word forms.
 
 In order to get unique words, rather than just all words in general, we will make a **set** from the list. A `set` in Python works just like it would [in math](https://en.wikipedia.org/wiki/Set_(mathematics)), it's all the unique values, with any duplicate items removed.
 
@@ -609,7 +629,8 @@ What should expect from set(list_example)?
 32, 1, 2, 3, 4, 12
 </Secret>
 
-So let's find out the length of our set. just like in math, we can also nest our functions. So, rather than saying `x = set(text1_tokens)` and then finding the length of "x", we can do it all in one step.
+Same idea with words.
+Instead of creating a new variable and then counting it, we can do everything in one step by nesting our functions.
 
 How do we do that? 
 
@@ -618,11 +639,17 @@ How do we do that?
 len(set(text1_tokens))
 ```
 </Secret>
-
+This gives us the number of types in the corpus (the number of unique words) which tells us something fundamentally different from token counts:
+- Token counts tell us about length and repetition.
+- Type counts tell us about variety and diversity.
 
 # Lexical Density
 
-Now we can calculate the **lexical density**, the number of unique words per total words. [Statistical studies](https://pdfs.semanticscholar.org/c2a8/56959d7f5880c98ccd4cfeb4b4f5b7133ec7.pdf) have shown that lexical density is a good metric to approximate lexical diversity—the range of vocabulary an author uses. This by no means suggests more or less sophistication.
+Now that we know how many tokens (total words) and types (unique words) a text has, we can combine those two numbers to say something interesting about the text: lexical density.
+**Lexical density** is a way of measuring how much vocabulary variety a text has relative to its length.
+In simple terms, it asks:
+*How repetitive is this text, and how much new vocabulary does it introduce as it goes on?*
+ [Statistical studies](https://pdfs.semanticscholar.org/c2a8/56959d7f5880c98ccd4cfeb4b4f5b7133ec7.pdf) have shown that lexical density is a good metric to approximate lexical diversity—the range of vocabulary an author uses. This by no means suggests more or less sophistication.
 
 Gertrude Stein's "A rose is a rose is a rose is a rose" would be rendered meaningless otherwise.  
 
@@ -673,40 +700,41 @@ Check all sentences below that are correct:
 
 # Cleaning and Normalizing
 
-Once we have a corpus—whether that is one text or millions—we usually want to clean and normalize it. 
-
+Lexical density only makes sense because we made a series of decisions before we counted anything: what counts as a word, whether capitalization matters, whether different forms of the same word should be treated as distinct, and which words are meaningful enough to include in the first place.
+Those decisions fall under a broader process called cleaning and normalization.
 There are three terms we are going to need:
 
-- **Text normalization** is the process of taking a list of words and transforming it into a more uniform sequence. Usually, this involves removing punctuation, making the words all the same case, removing _stop words_, and either _stemming_ or _lemmatizing_ the words. It can also include expanding abbreviations or matching misspellings (but these are advanced practices that we will not cover).
+- **Text normalization** is the process of taking a list of words and transforming it into a more uniform sequence so that words can be compared and counted consistently. For example, this can mean converting all words to lowercase so that Whale, whale, and WHALE are treated as the same word. More generally, normalization often involves removing punctuation, making all words the same case, removing stop words, and applying either stemming or lemmatization. It can also include expanding abbreviations or matching misspellings, though those are more advanced practices that we will not cover here.
 
 You probably know what removing punctuation and capitalization refer to, but the other terms may be new:
 
-- **Stop words** are words that appear frequently in a language, often adding grammatical structure, but little semantic content. There is no official list of stop words for any language, though there are some common, all-purpose lists built in to NLTK. However, different tasks require different lists. The purpose of removing stop words is to remove words that are so common that their meaning is diminished across a large number of texts.
+- **Stop words** are words that show up all the time in a language (the, is, and, of). They’re important but when we look at large amounts of text, they usually don’t tell us much about what a text is about.
+If you counted the most frequent words in almost any English text, *the* would probably be at the top. That doesn’t mean the text is “about” *the*. It just means English needs *the* to function.
+ Removing stop words helps other, more informative words stand out. There’s no single, official list of stop words for any language. NLTK provides some standard lists, but the “right” list depends on what you’re looking for. For some research questions, a word like not might be crucial; for others, it might just add noise.
 
-- **Stemming and lemmatizing** both of these processes try to consolidate words like "laughs" and "laughing" to  "laugh" since they all mean essentially the same thing, they are just inflected differently. So again, in an attempt to reduce the number of words, and get a realistic understanding of the meaning of a text, these words are collapsed. Stemming does this by cutting off the end (very fast), lemmatizing does this by looking up the dictionary form (very slow).
+ <Secret>For example, if you remove not as a stop word, the sentences “I support this policy” and “I do not support this policy” become indistinguishable in the data</Secret>
 
-Language is messy, and created for and by people, not computers. There is a lot of grammatical information in a sentence that a computer cannot use. For example, I could say to you:
+- **Stemming and lemmatizing** both of these processes try to consolidate words like *run, runs, running*, and *ran*, which differ grammatically but all refer to the same underlying action. If we treat each of these forms as completely separate, we artificially inflate the number of distinct words in the text and obscure patterns of meaning. So again, in an attempt to get a realistic understanding of the meaning of a text, these words are collapsed. Stemming does this by cutting off the end (very fast), lemmatizing does this by looking up the dictionary form (very slow).
 
+Natural language is messy, and used by people, not computers. Many computational analyses are not interested in grammatical detail like tense, agreement, or definiteness. Instead, they focus on what concepts are present, and how often they appear.
+Consider the difference between these two representations:
 > The house is burning.
-
-and you would understand me. You would also understand if I say
-
 > house burn.
 
-The first has more information about tense, and which house in particular, but the sentiment is the same either way.
+The second version strips away grammatical structure and keeps only the core lexical elements. While it loses information about tense and specificity, it preserves what is often most relevant for large-scale analysis: the presence of house and burn.
 
-What's happening between "the house is burning" and "house burn"
+What's happening between "the house is burning" and "house burn"?
 
 We removed the stop words (_the_ and _is_), and removed punctuation and case, and simplified what was left (_burning_ becomes _burn_). 
 
-This results in what is essentially a "bag of words," or a corpus of words without grammar. 
+This kind of transformation produces what is commonly called a bag of words: a representation of text that ignores grammar and word order and treats the text as a collection of lexical items.
 
 Because normalizing your text reduces the number of words (and therefore the number of dimensions in your data), and keeps only the words that contribute meaning to the document, this cleaning is usually desirable.
 
 There is "clean" and "dirty" versions of text data. Sometimes our questions are about the clean data, but sometimes our questions are in the "dirt."
 
 
-## A Note on Ethics
+## Ethical considerations on text normalization
 
 The act of cleaning/normalizing subscribes text to predetermined categories of meaning, forcing meaning into existing "boxes," so to speak. This doesn't mean that we should avoid cleaning or normalizing text, but that we should be aware of how some textual reductions have the potential to affect meaning. How does quantification reinforce differences or stratifications within our data? We have to be careful about the kinds of questions we are asking, and how we might be reproducing some of our assumptions in our inquiry.
 
@@ -724,16 +752,15 @@ Which one of the following sentences is correct:
 
 ## Keywords
 
-Do you remember the glossary terms from this section?
-
-- [Machine Learning](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/machine-learning.md)
 - [Text Normalization](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/text-normalization.md)
 
 # Word Cloud
 
-Let's use another visual tool to see where we are in our data exploration process...a word cloud. It is a collection, or cluster, of words depicted in different sizes. The bigger and bolder the word appears, the more often it's mentioned within a text.
-
-We are all familiar and we can use our list of tokens. Why would our list of unique words not be appropriate for a word cloud?
+Word clouds are built directly on the kinds of decisions we’ve just discussed. They reflect:
+- which words remain after normalization
+- which words are treated as the same
+- which words are frequent enough to stand out
+In other words, a word cloud doesn’t show you “the text itself.” It shows you the text as processed by your analytical choices. The bigger and bolder the word appears, the more often it's mentioned within a text.
 
 The following code is copied from the [Word Cloud Python Package documentation](https://amueller.github.io/word_cloud/auto_examples/simple.html#sphx-glr-auto-examples-simple-py). 
 
@@ -753,7 +780,7 @@ Is this useful? What are all these words? Does this tell me anything about Moby 
 
 No, we need to clean this text!
 
-# Data Cleaning: Removing Stop Words
+# Tools: Removing Stop Words
 
 We've completed one out of three steps of data cleaning.
 
@@ -869,7 +896,6 @@ wordcloud = WordCloud().generate(string_text)
 plt.imshow(wordcloud)
 ```
 
-
 ## Evaluation
 
 Check all sentences below that are correct:
@@ -886,7 +912,7 @@ Do you remember the glossary terms from this section?
 
 - [Stop Words](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/stop-words.md)
 
-# Data Cleaning: Lemmatizing and Stemming Words
+# Tools: Lemmatizing and Stemming Words
 
 Now that we've removed the stop words from our corpus, the next step is to stem or lemmatize the remaining words. This means that we will strip off the grammatical structure from the words. For example, `cats ⭢ cat`, and `walked ⭢ walk`. This gets complicated, such as in the case of `men ⭢ man` and `sang ⭢ sing`. 
 
