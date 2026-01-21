@@ -481,11 +481,11 @@ How could we change our greeting function to say hello to a specific person? Hin
 
 ### Solution
 <Secret>
-<CodeEditor>
+```python
 def greet(person):
   print("Hello " + person + "! How are you today?")
 greet("Sarah")
-</CodeEditor>
+```
 </Secret>
 As you can see, the result of calling this function prints `"Hello Sarah! How are you today?"`
 
