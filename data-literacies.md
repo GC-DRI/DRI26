@@ -77,17 +77,17 @@ We deliberately use the term **data literacies** to emphasize that there are mul
 
 To understand what research data is, we first have to explore the meaning of data. Data is foundational to our modern world. We use data to make decisions, represent phenomena, make arguments, and many other actions. Data, as in the definition of measurement - and estimation - of discrete phenomena emerged in the 18th century as part of modern state-building projects. Chris Wiggins and Matthew L. Jones, in their book [__How Data Happened: A History From The Age of Reason to The Age of Algorithms__](https://mitpressbookstore.mit.edu/book/9781324074588), argued that data emerged alongside statistics as forms of states counting and cataloguing their resources. Data has evolved along with science, research, and many forms of knowledge in the contemporary world. In the digital age, data holds significant value and influence as both a set of technologies used to measure and represent things, and as an abstract idea.
 
-The transformation and conversion of aspects of life, including knowledge systems, into data - in the digital sense - is often referred to as **datafication**. In the example of the collage of images of cats above, they are data in that they are digital images of cats that depict and measure them, representing real animals, and also as a collection they are a data set. Researchers might use this data set to answer a range of questions, although the data might have to be inspected, manipulated, transformed, and visualized beforehand.
+The transformation and conversion of aspects of life, including knowledge systems, into data - in the digital sense - is often referred to as [**datafication**](https://policyreview.info/concepts/datafication). In the example of the collage of images of cats above, they are data in that they are digital images of cats that depict and measure them, representing real animals, and also as a collection they are a data set. Researchers might use this data set to answer a range of questions, although the data might have to be inspected, processed, transformed, and visualized beforehand. We will cover more about how data is used in the research process further in this lesson.
 
 <Info>
-For more background and historical narrative on data, watch [this video recording](https://www.youtube.com/watch?v=Lndaz4PPE7k) of Wiggins and Jones giving a talk on their book at Harvard University and explain its origins in an interdisciplinary class they jointly taught that that drew from their backgrounds in statistics, data science, and history.
+For more background and historical narrative on the idea and practices of data, watch [this video recording](https://www.youtube.com/watch?v=Lndaz4PPE7k) of Wiggins and Jones giving a talk on their book at Harvard University and explain its origins in an interdisciplinary class they jointly taught that that drew from their backgrounds in statistics, data science, and history.
 </Info>
 
 # Data Literacies vs Digital Literacies
 
 Before going further into this lesson, it is important to distinguish between **digital literacies**, and **data literacies**. While digital literacies means "the ability to use information and communication technologies to find, evaluate, create, and communicate information, requiring both cognitive and technical skills" (see the [American Library Association's digital literacy clearinghouse](https://literacy.ala.org/digital-literacy/) for more information), **digital literacies** refers to multiple capacities to meaningfully interpret, engage with, utilize, and critically examine data. Data can have a very expansive meaning. In our context this often means information and materials stored on and interactive with through computers. Data are a abstract representations of  
 
-As Lisette Pangrazio and Julian Sefton-Greene (2020) argue in their paper ['The social utility of 'data literacy''](https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1707223), data literacy is a term that is frequently used, but infrequently defined. Examining multiple, sometimes contradictory meanings can be useful and productive for theorizing what data literacies mean, and how they differ from existing ideas of literacy that are often tied to print-based media.
+As Lisette Pangrazio and Julian Sefton-Greene (2020) argue in their paper ['The social utility of 'data literacy''](https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1707223), data literacy is a term that is frequently used in society and in academic publications, but infrequently defined. Examining multiple, sometimes contradictory meanings can be useful and productive for theorizing what data literacies mean, and how they differ from existing ideas of literacy that are often tied to print-based media. Data literacy involves both ability to skillfully use data and its associated technologies, and the capacity to critically reflect on the data itself.
 
 Pangrazio and Sefton-Greene argue that data can be meaningfully understood as text, and also that it has its own distinct dimensions.
 
@@ -118,7 +118,6 @@ In [__The Craft of Research__](https://press.uchicago.edu/ucp/books/book/chicago
 What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
 
 >>— [Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
-
 
 *Government Institution*
 
@@ -152,7 +151,7 @@ Companies use data to analze products
 
 -->
 
-Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information are depends on your project. Projects of often utilize multiple sources of data, which may be collected by the researchers (primary) or alread existing (secondary). Project audiences may have different assumptions and expectations about what counts as legitimate or credible data.
+Broadly, research data can be understood as **materials or information necessary to come to a conclusion** but what these materials and information are depends on your project. Projects of often utilize multiple sources of data, which may be collected by the researchers (primary) or alread existing (secondary). Project audiences may have different assumptions and expectations about what counts as legitimate or credible data.
 
 <!--## Being Data
 
@@ -244,9 +243,9 @@ A small list of open multimedia formats:
 
 ## The Importance of Using Open Data Formats
 
+The concept of **open data** emerged in the digital era, but has some important precendents in data-sharing practices. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available for the common good, arguing that researchers had an obligation to contribute to "the common pot" and relinquish individual claims over their data. This idea expanded into his [CUDO (communality, universality, disinterestedness, organized skepticism) norms](https://en.wikipedia.org/wiki/Mertonian_norms), which shaped the development of scientific knowledge over the twentieth century.
 
-
-The concept of **open data** emerged in the digital era, but has some important precendents. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available for the common good, arguing that researchers had an obligation to contribute to "the common pot" and relinquish individual claims over their data. Merton's idea carried forward into the 1990's and were influential on the emerging concept of open government data (often called 'open data'), which cystallized into a set of standards at the Sebastopol meeting in 2007. Read more about it in in [Simon Chignard's essay on the history of open data](https://www.paristechreview.com/2013/03/29/brief-history-open-data/). [The Sebastopol Principles of Open Government Data](https://public.resource.org/8_principles.html) insist that open government data is:
+Merton's idea carried forward into the 1990's and were influential on the emerging concept of open government data (often called 'open data'), which cystallized into a set of standards at the Sebastopol meeting in 2007. Read more about it in in [Simon Chignard's essay on the history of open data](https://www.paristechreview.com/2013/03/29/brief-history-open-data/). [The Sebastopol Principles of Open Government Data](https://public.resource.org/8_principles.html) insist that open government data is:
 
 - Complete
 - Primary
@@ -258,8 +257,6 @@ The concept of **open data** emerged in the digital era, but has some important 
 - License-Free
 
 Open government data is one form of open data. More broadly, open data are forms of **digital commons** - they are freely available resources available for sharing and reuse without commercial license. Like a pastoral commons, they are maintained within ecosystems and networks by communities and organizations that care for them, and use them for a variety of means.
-
-Drawing from Elinor Ostrom's concepts of 
 
 <Info>
 The Open Society Foundation's [Open Data Commons](https://opendatacommons.org/) is a repository of legal tools and licenses to support with open data publishing. Check them out if you would like to know more about open data standards.
