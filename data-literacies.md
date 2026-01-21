@@ -73,7 +73,7 @@ In this workshop we will discuss the basics of **research data** in terms of __m
 
 We deliberately use the term **data literacies** to emphasize that there are multiple ways to interpret, engagage with, utilize, and critically examine data.
 
-Data is foundational to our modern world. We use data to make decisions, represent phenomena, make arguments, and many other actions. Data, as in the definition of measurement - and estimation - of discrete phenomena emerged in the 18th century as part of modern state-building projects. Chris Wiggins and Matthew L. Jones, in their book [__How Data Happened: A History From The Age of Reason to The Age of Algorithms__](https://mitpressbookstore.mit.edu/book/9781324074588), argued that data emerged alongside statistics as forms of state power. <!-- TODO: Add more here / expand summary of book-->
+Data is foundational to our modern world. We use data to make decisions, represent phenomena, make arguments, and many other actions. Data, as in the definition of measurement - and estimation - of discrete phenomena emerged in the 18th century as part of modern state-building projects. Chris Wiggins and Matthew L. Jones, in their book [__How Data Happened: A History From The Age of Reason to The Age of Algorithms__](https://mitpressbookstore.mit.edu/book/9781324074588), argued that data emerged alongside statistics as forms of states counting and cataloguing their resources. Data has evolved alongside science, research, and many forms of knowledge in the contemporary world. <!-- TODO: Add more here / expand summary of book-->
 
 <Info>
 For more background and historical narrative on data, watch [this video recording](https://www.youtube.com/watch?v=Lndaz4PPE7k) of Wiggins and Jones giving a talk on their book at Harvard University and explain its origins in an interdisciplinary class they jointly taught that that drew from their backgrounds in statistics, data science, and history.
@@ -81,9 +81,11 @@ For more background and historical narrative on data, watch [this video recordin
 
 # Data Literacies vs Digital Literacies
 
-Before going further into this lesson, it is important to distinguish between **digital literacies**, and **data literacies**. While digital literacies means "the ability to use information and communication technologies to find, evaluate, create, and communicate information, requiring both cognitive and technical skills" (see the [American Library Association's digital literacy clearinghouse](https://literacy.ala.org/digital-literacy/) for more information), **digital literacies** refers to multiple capacities to meanitnfully interpret, engage with, utilize, and critically examine data. Data can have a very expansive meaning. In our context this often means information and materials stored on and interactive with through computers. Data are a abstract representations of  
+Before going further into this lesson, it is important to distinguish between **digital literacies**, and **data literacies**. While digital literacies means "the ability to use information and communication technologies to find, evaluate, create, and communicate information, requiring both cognitive and technical skills" (see the [American Library Association's digital literacy clearinghouse](https://literacy.ala.org/digital-literacy/) for more information), **digital literacies** refers to multiple capacities to meaningfully interpret, engage with, utilize, and critically examine data. Data can have a very expansive meaning. In our context this often means information and materials stored on and interactive with through computers. Data are a abstract representations of  
 
 As Lisette Pangrazio and Julian Sefton-Greene (2020) argue in their paper ['The social utility of 'data literacy''](https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1707223), data literacy is a term that is frequently used, but infrequently defined. Examining multiple, sometimes contradictory meanings can be useful and productive for theorizing what data literacies mean, and how they differ from existing ideas of literacy that are often tied to print-based media.
+
+Pangrazio and Sefton-Greene argue that data can be meaningfully understood as text, and also that it has its own distinct dimensions.
 
 <!-- TODO: expand this section -- define data and literacies -->
 
@@ -240,8 +242,7 @@ A small list of open multimedia formats:
 
 
 
-
-The concept of **open data** emerged in the digital era, but has some important precendents. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available for the common good, arguing that researchers had an obligation to contribute to "the common pot" and relinquish individual claims over their data. Merton's idea carried forward into the 1990's and were influential on the emerging concept of open government data (often called 'open data'), which cystallized into a set of standards at the Sebastopol meeting in 2007. Read more about it in in [Simon Chignard's essay on the history of open data](https://www.paristechreview.com/2013/03/29/brief-history-open-data/). The Sebastopol Principles of Open Government Data insist that open government data is:
+The concept of **open data** emerged in the digital era, but has some important precendents. In the 1940's, sociologist Robert King Merton advocated for making research data freely and publicly available for the common good, arguing that researchers had an obligation to contribute to "the common pot" and relinquish individual claims over their data. Merton's idea carried forward into the 1990's and were influential on the emerging concept of open government data (often called 'open data'), which cystallized into a set of standards at the Sebastopol meeting in 2007. Read more about it in in [Simon Chignard's essay on the history of open data](https://www.paristechreview.com/2013/03/29/brief-history-open-data/). [The Sebastopol Principles of Open Government Data](https://public.resource.org/8_principles.html) insist that open government data is:
 
 - Complete
 - Primary
@@ -252,7 +253,9 @@ The concept of **open data** emerged in the digital era, but has some important 
 - Non-Proprietary
 - License-Free
 
-Open government data is one form. Open data, more broadly, are forms of **digital commons** - they are freely available resources available for sharing and reuse without commercial license. Like a pastoral commons, they are maintained within ecosystems and networks. 
+Open government data is one form of open data. More broadly, open data are forms of **digital commons** - they are freely available resources available for sharing and reuse without commercial license. Like a pastoral commons, they are maintained within ecosystems and networks by communities and organizations that care for them, and use them for a variety of means.
+
+Drawing from Elinor Ostrom's concepts of 
 
 <Info>
 The Open Society Foundation's [Open Data Commons](https://opendatacommons.org/) is a repository of legal tools and licenses to support with open data publishing. Check them out if you would like to know more about open data standards.
@@ -445,21 +448,33 @@ HRPP/IRB Required?
 Yes
 </Secret>
 
-For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf) 
+For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf).
 
+<Info>__Tip__
+[The Oral History Association's website](https://oralhistory.org/information-about-irbs/) provides perspective and guidance on the relationship between oral history and IRBs.
+</Info>
 
 # Ethics Beyond Compliance 
 
-As we learn to manipulate data, we will consider our ethical obligations beyond institutional compliance such as an IRB. We will think of ethics as __the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight__. Using this definition of ethics, we then consider ethics as situated.
+As we learn to manipulate data, we will consider our ethical obligations beyond institutional compliance such as an IRB. While compliance-focused ethics often strictly follows rules and protocols, what is often called **procedural ethics**, there are ethical dimensions of research that go beyond formal protocols and regulations. We will think of ethics as __the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight__. Using this definition of ethics, we then consider our approach to ethics as situated.
 
- **Situated ethics refers to the notion that a person's understandings of and commitments to ethics or morality are greatly linked to their own experiences, positionalities, and political orientations, as well as the particular context in which that person is putting such ethics into practice** [Helen Simons and Robin Usher, Situated Ethics in Educational Research, 2000](https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203354896&type=googlepdf). 
+ **__Situated ethics__ refers to the notion that a person's understandings of and commitments to ethics or morality are greatly linked to their own experiences, positionalities, and political orientations, as well as the particular context in which that person is putting such ethics into practice** [see Helen Simons and Robin Usher (2000), Situated Ethics in Educational Research](https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203354896&type=googlepdf). [A recent paper by Martyna Gliniecka (2023)](https://journals.sagepub.com/doi/abs/10.1177/20563051231192021) used situated ethics to examine the case of analyzing publicly available Reddit data in a research project. [Pleuntje Jellema and colleagues (2023) wrote a useful paper](https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=3354&context=drs-conference-papers) about "the space between" situated and procedural ethics in a design research study on children affected by strokes, and their use of publicly available data to understand their research environment.
 
 <!--Situated ethics argues that ethical concerns will vary amongst people, disciplines, projects, tools, and contexts depending on the particular situated perspective of that person, group, or project.-->
 
-Thinking through how ethical ideas and practices, or lack thereof, are situated may prompt questions such as: How is data retrieved? By whom? For whom? From where? Why? 
+Thinking through how ethical ideas and practices, or lack thereof, are situated may prompt questions such as:
+
+- How is data retrieved?
+- By whom?
+- For whom?
+- From where?
+- Why?
+- At what cost(s)?
 
 <Info>
 In the Command Line workshop you learned about the history of the computer and considered the questions: How were computers developed? By whom? Where? Why? For what purposes?
+
+How might these help shape your view of the ethics of using computers and digital technologies to conduct research?
 </Info>
 
 ## Levels of Impact
@@ -551,11 +566,8 @@ At the end of our analysis, a decision is then made about how we would present t
 
 ![Stages of data are non-linear](/images/data-ethics/stages-of-data-non-linear.png)
 
-<Info>
 
-There is no one way to go through the stages of data. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iteration. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While making these decisions seems innocuous, there are ethical considerations, beyond the institution, and impacts we must evaluate in the process.
-
-</Info>
+There is no one way to go through the stages of data. By its very nature, data work is iterative and non-linear. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iteration. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While making these decisions seems innocuous, there are ethical considerations, beyond the institution, and impacts we must evaluate in the process.
 
 
 # Stages of Data: Raw
@@ -742,7 +754,13 @@ At the outset of your project, it's also important to create a strategy for back
 ![Image of Twitter/X post from Jenna Freedman](/images/data-ethics/freedman-twitter.png)
 
 
-For ethical considerations of the [impact of our knowledge production](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact2cont.md), it can be helpful to think through the concepts of Gramsci's hegemony, Foucault's discourse, and  Hall's "policing the crisis". An example of the politics of power production can be found in Julia Angwen's and Jeff Larson's, ["Bias in Criminal Risk Scores Is Mathematically Inevitable, Researchers Say," 2016](https://www.propublica.org/article/bias-in-criminal-risk-scores-is-mathematically-inevitable-researchers-say) article.
+For ethical considerations of the [impact of our knowledge production](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact2cont.md), it can be helpful to think through these three concepts:
+
+- Antonio Gramsci's [hegemony](https://en.wikipedia.org/wiki/Cultural_hegemony)
+- Michel Foucault's [discourse](https://en.wikipedia.org/wiki/Foucauldian_discourse_analysis)
+- Stuart Hall's ["policing the crisis"](https://soztheo.com/criminology/key-works-in-criminology/stuart-hall-et-al-policing-the-crisis-mugging-the-state-and-law-and-order-1978/)
+
+An example of the politics of power production can be found in Julia Angwen's and Jeff Larson's, ["Bias in Criminal Risk Scores Is Mathematically Inevitable, Researchers Say," 2016](https://www.propublica.org/article/bias-in-criminal-risk-scores-is-mathematically-inevitable-researchers-say) article.
 
 [Decisions on the categories and boundaries scholars use shape our:](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact2cont.md)
 - Datasets
@@ -1039,7 +1057,7 @@ We can consider this [level of impact](https://raw.githubusercontent.com/DHRI-Cu
 2. Could your research or project be used to justify or facilitate potentially harmful control or surveillance?
 3. Could it influence social or political discourse? Modes of profit?
 
-In addition, we must also consider the environmental impacts of our research. In the broadest sense, this requires us to think about how we can limit the footprint of everyday research practices (e.g., buying better and less, optimizing the use of digital technology, limiting travel and work-related trips, etc.), and how we can work from the "do no harm" principle. In biomedical research this means ensuring that the benefits of research are maximized while risk is minimized, and research-related risks to the environment should be identified in order for them to be eliminated or reduced. For more information, review ["Integrating environmental issues into research practices--An ethical responsibility" by the CNRS Ethics Committee](https://comite-ethique.cnrs.fr/wp-content/uploads/2023/01/OPINION-2022-43.pdf)
+In addition, we must also consider __the environmental impacts of our research__. In the broadest sense, this requires us to think about how we can limit the footprint of everyday research practices (e.g., buying better and less, optimizing the use of digital technology, limiting travel and work-related trips, etc.), and how we can work from the "do no harm" principle. In biomedical research this means ensuring that the benefits of research are maximized while risk is minimized, and research-related risks to the environment should be identified in order for them to be eliminated or reduced. For more information, review ["Integrating environmental issues into research practices--An ethical responsibility" by the CNRS Ethics Committee](https://comite-ethique.cnrs.fr/wp-content/uploads/2023/01/OPINION-2022-43.pdf)
 
 <!--We are visiting this impact between discussing cleaning data and analyzing data, because as we discussed earlier most of our reflections and decision making happen at these two stages.<--> 
 
@@ -1066,11 +1084,14 @@ Techniques geared towards testing a hypothesis about a population, based on your
 
 ### Qualitative Analysis
 
+<!--TODO: refine this section. Right now it is too brief and doesn't really explain qualitative analysis -->
+
 Techniques geared towards understanding a phenomenon, rather than predicting and testing hypotheses, such as:
 
 - Grounded Theory/[Computational Grounded Theory](https://journals.sagepub.com/doi/full/10.1177/0049124117729703)
 - Content Analysis
 - Text Analysis
+- Sentiment Analysis
 
 As we have discussed thus far, **data are not neutral or objective**. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
 
@@ -1086,10 +1107,10 @@ Descriptive analysis helps us summarize a data set.
 
 ## Challenge: Analysis
 
-1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out?
+1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing, and what are we leaving out?
 
 <Secret>
-You may choose to leave out data that are perceived to be outliers, especially if they differ too much from the "normal" curve. You may end up representing only those who fall within the "normal" curve which may not actually be an equitable representation. This would require considering ethical impact two: the ramifications of (re)producing categories.
+In your data analysis, you may choose to leave out data that are perceived to be outliers, especially if they differ too much from the "normal" curve. You may end up representing only those who fall within the "normal" curve which may not actually be an equitable representation. This would require considering ethical impact two: the ramifications of (re)producing categories. Read Katie Rawson and Travor Muñoz's essay [Against Cleaning](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) for a thoughtful reflection on some problems inherent in routine data-cleaning practices
 </Secret>
 
 2. How do we guide our decisions of interpretation with our choices of analyses?
@@ -1104,10 +1125,10 @@ The interpretation of the results should align itself with the type of analyses 
 Potential misuse we should concern ourselves with is the weaponization of marginalized participants' words and thoughts. We need to be wary of the unintended use of our research because we can't consider every circumstance that the analysis can be misused or misquoted. When working on an oral history project, we may set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. Walsh in [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8#ch18) gives us an example of the Inter-University Consortium for Political and Social Research (ICPSR) that requires different "levels of restriction and access" to social media data.
 </Secret>
 
-4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
+4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms), or ran out of time and/or budget for our project?
 
 <Secret> 
-In chasing the next big thing, the original intentions for beginning the project might be lost. When working with communities, our priority is that our work is meaningful to them and the excitement of exploring a new tool can sometimes distract us from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings us back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
+In chasing the next big thing, the original intentions for beginning the project might be lost. When working with communities, our priority is that our work remain meaningful to them. The excitement of exploring a new tool, especially among researchers, can sometimes distract us from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships carefully built over time could be strained in a haphazard wrap-up. This brings us back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
 </Secret>
 
 ### Keywords
@@ -1205,7 +1226,11 @@ Adapted from [Stephanie D. Evergreen (2019) Effective data visualization : The r
 
 <!--This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data. -->
 
-An example of effective data visualization can be seen in W.E.B. Du Bois [data portraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project.
+An example of effective data visualization can be seen in sociologist W.E.B. Du Bois' [data portraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project.
+
+<Info>
+Edward Tufte, a statistician and data visualization scholar, has written extensively about data visualization and artistic principles. Your university library may have his books in their collections. This tutorial in Geeks For Geeks, []"Mastering Tufte's Data Visualization Principles"](https://www.geeksforgeeks.org/data-visualization/mastering-tuftes-data-visualization-principles/), is a useful guide for thinking through some of Tutfte's concepts in designing and refining your own visualizations.
+</Info>
 
 ## Range of impact, or the range of accessibility
 
