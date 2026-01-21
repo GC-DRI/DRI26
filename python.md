@@ -452,7 +452,7 @@ To further understand the structure and syntax of functions, [see this useful gr
 
 ### Returning
 
-Note that writing a function this way only prints the result, but does not actually `return` it. In other words, we have no way of actually "capturing" the output for later use when we simply print it. Returning a value from a function gives us the ability to save the output of a function to a variable, or use it in further calculations. Read more about the difference between `print` and `return` [here](https://pythonprinciples.com/blog/print-vs-return/). If we wanted our function to actually perform the operation AND print it, we could revise our code as follows:
+Note that writing a function this way only prints the result, but does not actually `return` it. In other words, we have no way of actually "capturing" the output for later use when we simply print it. Returning a value from a function gives us the ability to save the output of a function to a variable, or use it in further calculations. Read more about the difference between `print` and `return` [here](https://www.geeksforgeeks.org/python/difference-between-return-and-print-in-python/). If we wanted our function to actually perform the operation AND print it, we could revise our code as follows:
 
 ```python
 def add_one(x):
