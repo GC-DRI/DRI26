@@ -69,11 +69,15 @@ additional datasets:
 
 # Data is Foundational
 
+![A collage of six photos of different cats](/images/data-ethics/Collage-of-Six-Cats.jpg)
+
 In this workshop we will discuss the basics of **research data** in terms of __materials__, __transformation__, and __presentation__. We will also discuss the ethical issues that arise in data collection, cleaning, and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacies mean within our projects and broader applications.
 
 We deliberately use the term **data literacies** to emphasize that there are multiple ways to interpret, engagage with, utilize, and critically examine data.
 
-Data is foundational to our modern world. We use data to make decisions, represent phenomena, make arguments, and many other actions. Data, as in the definition of measurement - and estimation - of discrete phenomena emerged in the 18th century as part of modern state-building projects. Chris Wiggins and Matthew L. Jones, in their book [__How Data Happened: A History From The Age of Reason to The Age of Algorithms__](https://mitpressbookstore.mit.edu/book/9781324074588), argued that data emerged alongside statistics as forms of states counting and cataloguing their resources. Data has evolved alongside science, research, and many forms of knowledge in the contemporary world. <!-- TODO: Add more here / expand summary of book-->
+To understand what research data is, we first have to explore the meaning of data. Data is foundational to our modern world. We use data to make decisions, represent phenomena, make arguments, and many other actions. Data, as in the definition of measurement - and estimation - of discrete phenomena emerged in the 18th century as part of modern state-building projects. Chris Wiggins and Matthew L. Jones, in their book [__How Data Happened: A History From The Age of Reason to The Age of Algorithms__](https://mitpressbookstore.mit.edu/book/9781324074588), argued that data emerged alongside statistics as forms of states counting and cataloguing their resources. Data has evolved along with science, research, and many forms of knowledge in the contemporary world. In the digital age, data holds significant value and influence as both a set of technologies used to measure and represent things, and as an abstract idea.
+
+The transformation and conversion of aspects of life, including knowledge systems, into data - in the digital sense - is often referred to as **datafication**. In the example of the collage of images of cats above, they are data in that they are digital images of cats that depict and measure them, representing real animals, and also as a collection they are a data set. Researchers might use this data set to answer a range of questions, although the data might have to be inspected, manipulated, transformed, and visualized beforehand.
 
 <Info>
 For more background and historical narrative on data, watch [this video recording](https://www.youtube.com/watch?v=Lndaz4PPE7k) of Wiggins and Jones giving a talk on their book at Harvard University and explain its origins in an interdisciplinary class they jointly taught that that drew from their backgrounds in statistics, data science, and history.
