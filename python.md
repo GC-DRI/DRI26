@@ -481,11 +481,11 @@ How could we change our greeting function to say hello to a specific person? Hin
 
 ### Solution
 <Secret>
-<CodeEditor>
+```python
 def greet(person):
   print("Hello " + person + "! How are you today?")
 greet("Sarah")
-</CodeEditor>
+```
 </Secret>
 As you can see, the result of calling this function prints `"Hello Sarah! How are you today?"`
 
@@ -1233,7 +1233,7 @@ But this is a lot of work, and it's a pretty ugly solution. If we wanted to add 
 
 Even if you're a super rad Python programmer, you're not going to remember every function name or how to do things you might not have touched in awhile. One thing programmers get very good at is googling for answers. In fact, this is arguably the most important skill in modern-day programming. So, let's use Google to find out how to convert strings to lower case.
 
-Let's try the search term [make string lowercase](http://lmgtfy.com/?q=make+string+lowercase+Python).
+Let's try the search term [make string lowercase](https://stackoverflow.com/questions/6797984/how-do-i-lowercase-a-string-in-python).
 
 While Google searches change over time, some of your results likely come from a site called Stack Overflow. This is a questions and answers site for programmers that usually has strong answers to questions about Python.
 
