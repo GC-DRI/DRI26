@@ -70,8 +70,8 @@ Here are some things maps and spatial analysis can be used for:
 ### Quantify patterns
 
 *Where are building fires happening most often?*
-### 
-Find optimal locations or routes
+
+### Find optimal locations or routes
 
 *What streets should this firetruck take to get to the burning building as fast as possible?*
 ### Make predictions
@@ -81,7 +81,7 @@ Find optimal locations or routes
 ## Putting maps to work
 In this example, considering the 'where' of public health data and of transportation data helps us learn about their underlying patterns and correlations. When Dataset A and Dataset B are cartographically combined we can more easily see a spatial relationship. 
 
-![Visualization of Combining Datasets](https://github.com/goforanna/mappingfoundations/blob/946f33d93dbfce5f6c03ee5211ad0a01a0894665/images/CombiningDataSets.png) 
+<img width="851" height="315" alt="CombiningDataSets" src="https://github.com/user-attachments/assets/f82974cd-d76b-4490-aefd-e4951c47cea2" />
 
 ## Modern mapping - GIS 
 
