@@ -472,7 +472,7 @@ How many tokens are there?
 - Two.
 </Quiz>
 
-## Just let us cook!
+# Just let us cook!
 
 If we agree that Whale, whale, and WHALE should all be treated as the same word for our analysis, then the next step is to normalize the text so that the computer sees them that way too.
 This is where it helps to think in terms of a recipe.
@@ -533,7 +533,7 @@ _jazz hands_
 
 You just wrote your first for-loop!
 
-## One line to lower-case them all
+# One line to lower-case them all
 
 Another way to perform the same action more succinctly is to use what's called a [list comprehension](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions). 
 
@@ -549,7 +549,7 @@ Let's check if they are the same...
 text1_tokens == text1_tokens_LC 
 ```
 
-## Take a Breath
+# Take a Breath
 
 Let's take a breath, because this was a difficulty spike. For loops are weird and not super intuitive. It usually takes some time for us to get used to them.
 
@@ -580,7 +580,7 @@ Do you remember the glossary terms from this section?
 - [Token](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/token.md)
 - [Type](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/type.md)
 
-## Length and Unique Words
+# Length and Unique Words
 
 Great! Now `text1_tokens` is a list of all of the tokens in our corpus, with the punctuation removed, and all the words in lowercase. Let's check it:
 
@@ -643,7 +643,7 @@ This gives us the number of types in the corpus (the number of unique words) whi
 - Token counts tell us about length and repetition.
 - Type counts tell us about variety and diversity.
 
-## Lexical Density
+# Lexical Density
 
 Now that we know how many tokens (total words) and types (unique words) a text has, we can combine those two numbers to say something interesting about the text: lexical density.
 **Lexical density** is a way of measuring how much vocabulary variety a text has relative to its length.
@@ -684,7 +684,7 @@ text2_slice = text2_tokens[0:10000]
 len(set(text2_slice)) / len(text2_slice)
 ```
 
-# Evaluation
+## Evaluation
 
 Check all sentences below that are correct:
 
@@ -694,7 +694,7 @@ Check all sentences below that are correct:
 - Comparing the lexical density between texts of different sizes can give a problematic result. A possible solution is to use list slice and compare parts of both texts of a similar size.*
 </Quiz>
 
-## Cleaning and Normalizing
+# Cleaning and Normalizing
 
 Lexical density only makes sense because we made a series of decisions before we counted anything: what counts as a word, whether capitalization matters, whether different forms of the same word should be treated as distinct, and which words are meaningful enough to include in the first place.
 Those decisions fall under a broader process called cleaning and normalization.
@@ -732,13 +732,13 @@ Because normalizing your text reduces the number of words (and therefore the num
 There is "clean" and "dirty" versions of text data. Sometimes our questions are about the clean data, but sometimes our questions are in the "dirt."
 
 
-# Ethical considerations on text normalization
+## Ethical considerations on text normalization
 
 The act of cleaning/normalizing subscribes text to predetermined categories of meaning, forcing meaning into existing "boxes," so to speak. This doesn't mean that we should avoid cleaning or normalizing text, but that we should be aware of how some textual reductions have the potential to affect meaning. How does quantification reinforce differences or stratifications within our data? We have to be careful about the kinds of questions we are asking, and how we might be reproducing some of our assumptions in our inquiry.
 
 To read more about ethics and text analysis, see Lauren Klein's "[Distant Reading After Moretti](https://arcade.stanford.edu/blogs/distant-reading-after-moretti)," where she questions, "Instead of first asking what can be modeled—what phenomena we can track at scale—we might instead ask: what might be hidden in this corpus?”
 
-# Evaluation
+## Evaluation
 
 Which one of the following sentences is correct:
 
@@ -748,11 +748,11 @@ Which one of the following sentences is correct:
 - Textual alterations can potentially change the original intended meaning. Therefore, we must always strive to work with the data exactly as it is in the source.
 </Quiz>
 
-# Keywords
+## Keywords
 
 - [Text Normalization](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/text-normalization.md)
 
-## Word Cloud
+# Word Cloud
 
 Word clouds are built directly on the kinds of decisions we’ve just discussed. They reflect:
 - which words remain after normalization
@@ -996,7 +996,7 @@ print(len(text1_clean))
 
 print(len(text1_clean_test))
 ```
-# Evaluation
+## Evaluation
 
 How to write the previous two for-loops in list comprehension?
 
@@ -1045,7 +1045,7 @@ Check all sentences below that are correct:
 - `sorted(set(list_of_strings))` returns the unique items of `list_of_strings` in alphabetical order.*
 </Quiz>
 
-# Keywords
+## Keywords
 
 Do you remember the glossary terms from this section?
 
@@ -1054,7 +1054,7 @@ Do you remember the glossary terms from this section?
 - [Stemming](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/stemming.md)
 
 
-# Evaluation
+## Evaluation
 
 Check all sentences below that are correct:
 
@@ -1063,7 +1063,7 @@ Check all sentences below that are correct:
 - There is no obvious best choice between Stemmers and Lemmatizers, so the best way to go is experimenting and seeing what results better fit your goals.*
 </Quiz>
 
-## Data Cleaning: Results
+# Data Cleaning: Results
 
 Now that we've seen some of the differences between both, we will proceed using our lemmatized corpus, which we saved as `text1_clean`:
 
@@ -1089,7 +1089,7 @@ We've made a nice image here, but it might be easier to comprehend as a list. Be
 my_dist.most_common(20)
 ```
 
-## Challenge
+# Challenge
 
 What about if we are interested in a list of specific words—perhaps to identify texts that have biblical references. Let's make a (short) list of words that might suggest a biblical reference and see if they appear in _Moby Dick_. Set this list equal to a variable:
 
