@@ -26,9 +26,9 @@ installations:
         required: true
 
 instructors: 
-    - 'Parisa Setayesh'
+    - 'Anna Schlenz'
 
-authors:
+author:
     - 'Anna Schlenz'
 
 additional readings:
