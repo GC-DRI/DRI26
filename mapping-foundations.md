@@ -89,7 +89,7 @@ In this example, considering the 'where' of public health data and of transporta
 A Geographic Information System (GIS) is a powerful tool for modern cartography and spatial analysis. At its most basic level, GIS transforms tabular data into cartographic visualizations. GIS takes an input table of names and addresses and outputs a visualization of those addresses in space. 
 
 What makes GIS especially useful is that it can transform and integrate many large datasets as different layers within a single visualization. In the example below, individual datasets are transformed into layers and integrated into a complex visualization that represents the real world. 
-![Visualization of GIS Integration of Layers](https://github.com/goforanna/mappingfoundations/blob/946f33d93dbfce5f6c03ee5211ad0a01a0894665/images/GISIntegration.jpg)
+![Visualization of GIS Integration of Layers](/images/mapping/GISIntegration.jpg)
 
 ### Knowledge Check
 
@@ -109,7 +109,7 @@ In order to make a map, we need spatial data. **Spatial data** (also called **ge
 
 ### Knowledge Check
 What spatial data is needed to make a map like this one?
-![Map of Walking Distance to Subway](https://github.com/goforanna/mappingfoundations/blob/946f33d93dbfce5f6c03ee5211ad0a01a0894665/images/subwaywalkingdistance.png)
+![Map of Walking Distance to Subway](/images/mapping/subwaywalkingdistance.png)
 
 <Quiz>
 - Locations of NYC Roads*
@@ -121,7 +121,7 @@ What spatial data is needed to make a map like this one?
 ## Types of Spatial Data: Vector and Raster 
 There are two major file types of spatial data: **vector datasets** and **raster datasets**. Vector data is the most common type of GIS data. Vector data represents spatial data as collections of points, each with a given coordinate. Those points are then grouped into **features**. Before we talk more about vector data, we'll briefly touch on raster data. Raster data represents spatial data as a matrix of cells (or pixels) that each contain an attribute value (like elevation or temperature). Satellite imagery, jpeg scans of historical maps, or digital elevation models are all examples of raster data. Unlike vector data, the resolution is fixed in raster data, and the size of each pixel determines the level of detail in the map. Smaller pixels mean higher resolution, and larger pixels mean lower resolution. 
 
-![Vector Data Versus Raster Data](https://github.com/goforanna/mappingfoundations/blob/946f33d93dbfce5f6c03ee5211ad0a01a0894665/images/rastervector.jpeg)
+![Vector Data Versus Raster Data](/images/mapping/rastervector.jpeg)
 
 ## Vector Data: Features and Attributes
 Vector datasets represent spatial data as features. **Features** are the fundamental building blocks of map creation and are **displayed as points, lines, or polygons**. In the NYC Distance-to-Subway map from earlier, subway stations, streets, and the city boundary are the features of the map. 
@@ -131,12 +131,12 @@ Vector datasets represent spatial data as features. **Features** are the fundame
 
 Features can also hold relevant non-spatial data, called **attribute data**. While spatial data represents the location, shape, and size of geographic features, **attribute data** provides more detailed, non-spatial information about those features, like subway station names (for points), street names (for lines), or populations (for polygons). Attribute data can be visually represented by changing the size, shape, or color of the feature (AKA the **symbology**), or by alphanumeric annotations. 
 
-![Feature Types](https://github.com/goforanna/mappingfoundations/blob/946f33d93dbfce5f6c03ee5211ad0a01a0894665/images/featuretypes.gif)
+![Feature Types](/images/mapping/featuretypes.gif)
 
 ## Vector Data: Layers and Feature Classes
 GIS compiles and integrates data by layering different datasets on top of each other. These layers are called **feature classes**. Each feature class contains homogenous data, meaning that there is only one *kind* of feature in each feature class, whether its points, lines, or polygons, and the categories of attribute data are applicable to each feature within the feature class. For example, in the following image there are three feature classes. The street feature class contains line features, while the buildings and vegetation feature classes each contain polygon features. Each building is a polygon feature within the buildings feature class, and each feature contains attribute data like building type, address, number of floors, or hours of operation. 
 
-![Visualization of GIS Integration of Layers](https://github.com/goforanna/mappingfoundations/blob/946f33d93dbfce5f6c03ee5211ad0a01a0894665/images/GISIntegration.jpg)
+![Visualization of GIS Integration of Layers](/images/mapping/GISIntegration.jpg)
 ![Visualization of Feature Class]<img width="702" height="330" alt="featureclass" src="https://github.com/user-attachments/assets/3bc58563-4719-4ee8-98c4-9e5b0ae68d18" />
 
 
@@ -163,7 +163,7 @@ For example, the Mercator Projection--the most famous and recognizable map proje
 
  
 Beyond visual misrepresentation, inappropriate projections can mess with the accuracy of your spatial analysis. If your analysis involves measuring large distances in the United States, for example, using the Mercator projection will produce a different calculation than a projection that preserves area and distance like the Albers Equal Area Conic.  
-![Distance Distortion](https://github.com/goforanna/mappingfoundations/blob/946f33d93dbfce5f6c03ee5211ad0a01a0894665/images/distancedistortion.png)
+![Distance Distortion](/images/mapping/distancedistortion.png)
 
 ### Knowledge Check
 If you are making a map that shows how long it takes to walk to the nearest subway station in New York City, you should choose a map projection that preserves:
