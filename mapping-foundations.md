@@ -18,6 +18,7 @@ instructors:
 
 authors:
     - 'Anna Schlenz'
+    - 'Parisa Setayesh'
 
 prerequisites:
   - data-ethics:
@@ -210,5 +211,30 @@ It's likely that your question will involve a combination of these formats, and 
 - How are the locations of ancient trade routes related to the development of cities in early civilizations?
 
 # Break-Out Activity
-1. Based on the examples and on the question formats, briefly try to formulate an aspect of your research interests into a spatial research question, thinking about all that is hidden within the relationships between places.
-2. Share with your break-out group. What kinds of data do you need? What kind of spatial data might you already have?
+Based on the examples and on the question formats, briefly try to formulate an aspect of your research interests into a spatial research question, thinking about all that is hidden within the relationships between places.
+
+### 1. Spatialize your research material: how is your work “in place”?
+- Is your research grounded in a specific location or set of locations (a site, neighborhood, corridor, coastline, campus, border, watershed)?
+
+- Is it spatial because it’s tied to an institution that operates from a specific location (a state agency, university, NGO, firm, or infrastructure)?
+
+
+- Is it spatial because it plays out at the level of a city/region/country, where the same phenomenon looks different across places?
+
+- Is it spatial because it’s about people, and where they are located shapes access, risk, resources, mobility, visibility, or power?
+
+- Is it spatial because it’s about movement/flows/networks across places (routes, supply chains, migration, data, water, money, infrastructure)?
+
+### 2. Pin down your spatial logic: scale, relationship, and time
+
+- Scale: At what scale does your question become visible (body/building, block, neighborhood, city, region, nation, transnational)? If you zoomed in or out, what might change about the story?
+
+- Relationship: What is the key relationship you want to reveal across space? (proximity, boundaries, connectivity, clustering/hotspots)
+
+- Time: Is this a snapshot or a change story (before/after, seasonal, event-driven, slow shift, historical layering)?
+
+### 3. What data/data set would let you answer it?
+
+- What kinds of data do you need? What kind of spatial data might you already have?
+
+### 4. (Briefly) share your preliminary spatial research question with your breakout group.
