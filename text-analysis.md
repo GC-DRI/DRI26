@@ -80,6 +80,7 @@ However, in this workshop, we will set aside the larger theoretical questions re
 There are infinitely many *corpora*, and, sometimes, you will want to make your own—that is, one that best fits your research question.
 
 <p style="text-align: center;">What’s an example of textual *corpora* in your field of research?
+
 </p>
 
 ## A Note About Languages
@@ -90,13 +91,13 @@ This unevenness isn’t linguistic. It doesn’t reflect how complex or expressi
 The good news is that this landscape is slowly changing. Multilingual support is expanding, tools are becoming more sophisticated, and community-driven contributions continue to improve coverage. At the same time, it’s important to remember that technical limitations often mirror social ones.
 Recognizing this connection helps us treat text analysis tools not as neutral instruments, but as technologies embedded in social contexts and that awareness should also inform how we interpret our results.
 
-<Info>**(not so) Fun fact**: What five languages most frequently used for web content as of 2023, by share of websites [(Source)](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/)?
+<Info>**(not so) Fun fact**: What five languages most frequently used for web content as of October 2025, by share of websites [(Source)](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/)?
 
-* English at 58.8%
-* Russian at 5.3%
-* Spanish at 4.3 %
-* French at 3.7%
-* German at 3.7%
+* English at 49.2%
+* Spanish at 6%
+* German at 5.9 %
+* Japanese at 5.2%
+* French at 4.4%
 </Info>
 
 
@@ -302,7 +303,7 @@ text4.similar("patriotism")
 They actually don't share the same contexts - "patriotism" does not show up on the list of similar words for "love". But "people", "government", "confidence", "freedom" showed up on both lists. Perhaps this is how patriotism relates to love -- through these concepts. 
 </Secret>
 
-## STEP 2: Operationalization
+# STEP 2: Operationalization
 
 In the previous section, we asked whether our concept (in this case, patriotism) actually shows up in the text, and how it is expressed through language in context. We explored where words appear, what surrounds them, and how they behave relative to other terms. That exploratory work sets us up for the next step: operationalization.
 
@@ -385,13 +386,12 @@ text2.dispersion_plot(["husband", "wife"])
 ```
 
 ## Evaluation
-
 Check all sentences below that are correct:
 
 <Quiz>
 - You can get a visual representation of occurrences of a word with the `dispersion_plot` method.*
-- The `dispersion_plot` method allows you to input a list of strings, as long as you split them with commas.*
-- In a list of strings, the commas must come outside of the quotation marks.*
+- The `dispersion_plot` method allows you to input a list of strings as long as you split them with a comma.*
+- In a list of strings the commas must come outside of the quotation marks.*
 </Quiz>
 
 # Make your analysis count
@@ -461,15 +461,15 @@ Bonus: That also means removing non-words (i.e. punctuation)
 
 Why would we want each type to be treated the same way? Is there any scenario where we would not want that?
 
-# Evaluation 
+## Evaluation 
 
 Look at this sentence:
 **Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo**
 How many tokens are there?
 <Quiz>
-- Eight *
-- Three
-- Two
+- Eight.*
+- Three.
+- Two.
 </Quiz>
 
 ## Just let us cook!
@@ -580,7 +580,7 @@ Do you remember the glossary terms from this section?
 - [Token](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/token.md)
 - [Type](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/type.md)
 
-# Length and Unique Words
+## Length and Unique Words
 
 Great! Now `text1_tokens` is a list of all of the tokens in our corpus, with the punctuation removed, and all the words in lowercase. Let's check it:
 
@@ -643,7 +643,7 @@ This gives us the number of types in the corpus (the number of unique words) whi
 - Token counts tell us about length and repetition.
 - Type counts tell us about variety and diversity.
 
-# Lexical Density
+## Lexical Density
 
 Now that we know how many tokens (total words) and types (unique words) a text has, we can combine those two numbers to say something interesting about the text: lexical density.
 **Lexical density** is a way of measuring how much vocabulary variety a text has relative to its length.
@@ -684,7 +684,7 @@ text2_slice = text2_tokens[0:10000]
 len(set(text2_slice)) / len(text2_slice)
 ```
 
-## Evaluation
+# Evaluation
 
 Check all sentences below that are correct:
 
@@ -694,11 +694,7 @@ Check all sentences below that are correct:
 - Comparing the lexical density between texts of different sizes can give a problematic result. A possible solution is to use list slice and compare parts of both texts of a similar size.*
 </Quiz>
 
-
-
-
-
-# Cleaning and Normalizing
+## Cleaning and Normalizing
 
 Lexical density only makes sense because we made a series of decisions before we counted anything: what counts as a word, whether capitalization matters, whether different forms of the same word should be treated as distinct, and which words are meaningful enough to include in the first place.
 Those decisions fall under a broader process called cleaning and normalization.
@@ -718,7 +714,9 @@ If you counted the most frequent words in almost any English text, *the* would p
 
 Natural language is messy, and used by people, not computers. Many computational analyses are not interested in grammatical detail like tense, agreement, or definiteness. Instead, they focus on what concepts are present, and how often they appear.
 Consider the difference between these two representations:
+
 > The house is burning.
+
 > house burn.
 
 The second version strips away grammatical structure and keeps only the core lexical elements. While it loses information about tense and specificity, it preserves what is often most relevant for large-scale analysis: the presence of house and burn.
@@ -734,13 +732,13 @@ Because normalizing your text reduces the number of words (and therefore the num
 There is "clean" and "dirty" versions of text data. Sometimes our questions are about the clean data, but sometimes our questions are in the "dirt."
 
 
-## Ethical considerations on text normalization
+# Ethical considerations on text normalization
 
 The act of cleaning/normalizing subscribes text to predetermined categories of meaning, forcing meaning into existing "boxes," so to speak. This doesn't mean that we should avoid cleaning or normalizing text, but that we should be aware of how some textual reductions have the potential to affect meaning. How does quantification reinforce differences or stratifications within our data? We have to be careful about the kinds of questions we are asking, and how we might be reproducing some of our assumptions in our inquiry.
 
 To read more about ethics and text analysis, see Lauren Klein's "[Distant Reading After Moretti](https://arcade.stanford.edu/blogs/distant-reading-after-moretti)," where she questions, "Instead of first asking what can be modeled—what phenomena we can track at scale—we might instead ask: what might be hidden in this corpus?”
 
-## Evaluation
+# Evaluation
 
 Which one of the following sentences is correct:
 
@@ -750,11 +748,11 @@ Which one of the following sentences is correct:
 - Textual alterations can potentially change the original intended meaning. Therefore, we must always strive to work with the data exactly as it is in the source.
 </Quiz>
 
-## Keywords
+# Keywords
 
 - [Text Normalization](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/text-normalization.md)
 
-# Word Cloud
+## Word Cloud
 
 Word clouds are built directly on the kinds of decisions we’ve just discussed. They reflect:
 - which words remain after normalization
@@ -780,7 +778,7 @@ Is this useful? What are all these words? Does this tell me anything about Moby 
 
 No, we need to clean this text!
 
-# Tools: Removing Stop Words
+## Tools: Removing Stop Words
 
 We've completed one out of three steps of data cleaning.
 
@@ -912,7 +910,7 @@ Do you remember the glossary terms from this section?
 
 - [Stop Words](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/stop-words.md)
 
-# Tools: Lemmatizing and Stemming Words
+## Tools: Lemmatizing and Stemming Words
 
 Now that we've removed the stop words from our corpus, the next step is to stem or lemmatize the remaining words. This means that we will strip off the grammatical structure from the words. For example, `cats ⭢ cat`, and `walked ⭢ walk`. This gets complicated, such as in the case of `men ⭢ man` and `sang ⭢ sing`. 
 
@@ -998,10 +996,9 @@ print(len(text1_clean))
 
 print(len(text1_clean_test))
 ```
-## Evaluation
+# Evaluation
 
 How to write the previous two for-loops in list comprehension?
-
 
 Lemmatize then stem:
 
@@ -1020,7 +1017,7 @@ text1_clean_test = [porter_stemmer.stem(wordnet_lemmatizer.lemmatize(t)) for t i
 </Secret>
 
 
-## Verifying Clean List Contents
+# Verifying Clean List Contents
 
 Let's check now to see the length of our final, cleaned version of the data, and then check the unique set of words. 
 
@@ -1039,7 +1036,7 @@ sorted(set(text1_clean))[:30]
 
 `sorted` combined with `set` should give us a list of all the unique words in _Moby Dick_ in alphabetical order, but we only want to see the first ones. Notice how there are some words we wouldn't have expected, such as 'abandon', and 'abandonedli'. This process is far from perfect, but it is useful. 
 
-## Evaluation
+# Evaluation
 
 Check all sentences below that are correct:
 
@@ -1048,7 +1045,7 @@ Check all sentences below that are correct:
 - `sorted(set(list_of_strings))` returns the unique items of `list_of_strings` in alphabetical order.*
 </Quiz>
 
-## Keywords
+# Keywords
 
 Do you remember the glossary terms from this section?
 
@@ -1057,7 +1054,7 @@ Do you remember the glossary terms from this section?
 - [Stemming](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/stemming.md)
 
 
-## Evaluation
+# Evaluation
 
 Check all sentences below that are correct:
 
@@ -1066,7 +1063,7 @@ Check all sentences below that are correct:
 - There is no obvious best choice between Stemmers and Lemmatizers, so the best way to go is experimenting and seeing what results better fit your goals.*
 </Quiz>
 
-# Data Cleaning: Results
+## Data Cleaning: Results
 
 Now that we've seen some of the differences between both, we will proceed using our lemmatized corpus, which we saved as `text1_clean`:
 
@@ -1091,8 +1088,6 @@ We've made a nice image here, but it might be easier to comprehend as a list. Be
 ```python
 my_dist.most_common(20)
 ```
-
-
 
 ## Challenge
 
