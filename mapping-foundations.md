@@ -13,6 +13,12 @@ learning objectives:
 estimated time:
 - 45 mins
 
+instructors: 
+    - 'Parisa Setayesh'
+
+authors:
+    - 'Anna Schlenz'
+
 prerequisites:
   - data-ethics:
       description: "(Recommended) In order to have a better understanding of the data formats we handle in this workshop, if you don't already have a foundational understanding of data formats and types, you can start by walking through our Data Ethics workshop."
@@ -49,12 +55,29 @@ A map is method of making sense of data. Maps can organize it, analyze it, visua
 
 ## Maps and spatial analysis
 Here are some things maps and spatial analysis can be used for:
-- Understand where - *Where is Cleveland, Ohio? Where are shoreline access points in my neighborhood? Where does my mom live?*
-- Identify size, shape, and distribution - *What is the size of Lake Ontario? What is the geographic scale of my sample collection? What is the shape of Turkiye?*
-- Determine how places are related - *Where is the closest fire station to a burning building?*
-- Quantify patterns - *Where are building fires happening most often?*
-- Find optimal locations or routes - *What streets should this firetruck take to get to the burning building as fast as possible?*
-- Make predictions - *Where will the phenomena happen next?*
+### Understand where
+
+*Where is Cleveland, Ohio? Where are shoreline access points in my neighborhood? Where does my mom live?*
+
+### Identify size, shape, and distribution
+
+*What is the size of Lake Ontario? What is the geographic scale of my sample collection? What is the shape of Turkiye?*
+
+### Determine how places are related
+
+*Where is the closest fire station to a burning building?*
+
+### Quantify patterns
+
+*Where are building fires happening most often?*
+### 
+Find optimal locations or routes
+
+*What streets should this firetruck take to get to the burning building as fast as possible?*
+### Make predictions
+
+*Where will the phenomena happen next?*
+
 ## Putting maps to work
 In this example, considering the 'where' of public health data and of transportation data helps us learn about their underlying patterns and correlations. When Dataset A and Dataset B are cartographically combined we can more easily see a spatial relationship. 
 
