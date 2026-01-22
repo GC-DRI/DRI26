@@ -81,7 +81,7 @@ Here are some things maps and spatial analysis can be used for:
 ## Putting maps to work
 In this example, considering the 'where' of public health data and of transportation data helps us learn about their underlying patterns and correlations. When Dataset A and Dataset B are cartographically combined we can more easily see a spatial relationship. 
 
-<img width="851" height="315" alt="CombiningDataSets" src="https://github.com/user-attachments/assets/f82974cd-d76b-4490-aefd-e4951c47cea2" />
+![Combining Datasets of Trucking Routes and Lung Cancer in Texas](images/mapping/CombiningDataSets.png)
 
 ## Modern mapping - GIS 
 
