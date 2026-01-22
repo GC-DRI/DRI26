@@ -105,7 +105,7 @@ Which of the following is GIS a useful tool for? (check all that apply)
 
 # Components of a Map
 In order to make a map, we need spatial data. **Spatial data** (also called **geospatial data**) refers to information about the **location, shape, and size** of objects or phenomena on the Earth's surface, and the relationships between them. In the real world and on globes, this data is often represented with geographic coordinates (latitude and longitude). But on flat surfaces, this data is represented with cartesian, or projected, coordinates (x,y coordinates). 
-![Coordinate Systems](https://github.com/goforanna/mappingfoundations/blob/946f33d93dbfce5f6c03ee5211ad0a01a0894665/images/CoordinateSystems.png)
+![Coordinate Systems](/images/mapping/CoordinateSystems.png)
 
 ### Knowledge Check
 What spatial data is needed to make a map like this one?
@@ -137,7 +137,6 @@ Features can also hold relevant non-spatial data, called **attribute data**. Whi
 GIS compiles and integrates data by layering different datasets on top of each other. These layers are called **feature classes**. Each feature class contains homogenous data, meaning that there is only one *kind* of feature in each feature class, whether its points, lines, or polygons, and the categories of attribute data are applicable to each feature within the feature class. For example, in the following image there are three feature classes. The street feature class contains line features, while the buildings and vegetation feature classes each contain polygon features. Each building is a polygon feature within the buildings feature class, and each feature contains attribute data like building type, address, number of floors, or hours of operation. 
 
 ![Visualization of GIS Integration of Layers](/images/mapping/GISIntegration.jpg)
-![Visualization of Feature Class]<img width="702" height="330" alt="featureclass" src="https://github.com/user-attachments/assets/3bc58563-4719-4ee8-98c4-9e5b0ae68d18" />
 
 
 ### Knowledge Check
