@@ -1036,7 +1036,7 @@ sorted(set(text1_clean))[:30]
 
 `sorted` combined with `set` should give us a list of all the unique words in _Moby Dick_ in alphabetical order, but we only want to see the first ones. Notice how there are some words we wouldn't have expected, such as 'abandon', and 'abandonedli'. This process is far from perfect, but it is useful. 
 
-# Evaluation
+## Evaluation
 
 Check all sentences below that are correct:
 
@@ -1089,7 +1089,7 @@ We've made a nice image here, but it might be easier to comprehend as a list. Be
 my_dist.most_common(20)
 ```
 
-# Challenge
+## Challenge
 
 What about if we are interested in a list of specific words—perhaps to identify texts that have biblical references. Let's make a (short) list of words that might suggest a biblical reference and see if they appear in _Moby Dick_. Set this list equal to a variable:
 
@@ -1176,7 +1176,7 @@ This should be a string.
 
 Great! We have just read in our first file.
 
-# Make Your Own Corpus (continued)
+## Make Your Own Corpus (continued)
 
 Now we are going to transform that string into a text that we can perform NLTK functions on. Since we already imported nltk at the beginning of our program, we don't need to import it again, we can just use its functions by specifying `nltk` before the function. The first step is to tokenize the words, transforming the giant string into a list of words. A simple way to do this would be to split on spaces, and that would probably be fine, but we are going to use the NLTK tokenizer to ensure that edge cases are captured (i.e., "don't" is made into 2 words: "do" and "n't"). In the next cell, type:
 
