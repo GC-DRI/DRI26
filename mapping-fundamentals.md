@@ -25,9 +25,10 @@ installations:
         description: "(Required) To complete this workshop you will need to install QGIS. Step by step installation instructions are available [here](https://github.com/goforanna/fundamentalsofQGIS/blob/2b0494dbbe684a6d5d678f392c90ff46a5046991/QGISInstallInstructions.md)."
         required: true
 
-author:
-    - 'Anna Schlenz'	
-instructor: 
+instructors: 
+    - 'Anna Schlenz'
+
+authors:
     - 'Anna Schlenz'
 
 additional readings:
