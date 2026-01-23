@@ -213,7 +213,7 @@ It's likely that your question will involve a combination of these formats, and 
 # Break-Out Activity
 Based on the examples and on the question formats, briefly try to formulate an aspect of your research interests into a spatial research question, thinking about all that is hidden within the relationships between places. You can download a pdf of a spatializing research worksheet below: <br>
 
-<Download files='spatializing-research-worksheet.pdf'> 
+<Download files='spatializing-research-worksheet.rtf'> 
 
 ### 1. Spatialize your research material: how is your work “in place”?
 - Is your research grounded in a specific location or set of locations (a site, neighborhood, corridor, coastline, campus, border, watershed)?
