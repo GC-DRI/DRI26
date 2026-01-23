@@ -89,9 +89,6 @@ Languages are inherently social. They are shaped by history, power, migration, e
 
 Many existing tools for textual analysis (including NLTK, which we’re using in this workshop) support multiple languages thanks to the impressive work of the Python text analysis community. But that support is _uneven_. Some languages are better represented, better resourced, and better supported than others, depending on the task.
 
-![Crying cat meme - when you find out that nltk is not supported in your language](images/nltknotsupported.png)
-
-
 This unevenness isn’t linguistic. It doesn’t reflect how complex or expressive a language is. It reflects patterns of data availability, institutional investment, and whose language practices have historically been treated as worthy.
 The good news is that this landscape is slowly changing. Multilingual support is expanding, tools are becoming more sophisticated, and community-driven contributions continue to improve coverage. At the same time, it’s important to remember that technical limitations often mirror social ones.
 
@@ -487,9 +484,6 @@ This is where it helps to think in terms of a recipe.
 Just like in cooking, before we start combining ingredients or judging the final dish, we need to prep (in fancy terminology, we need to do *mise en place*). 
 
 [Mise en place](https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/)
-
-![Let's cook - kitty](images/letscook.png)
-
 
  * Python has a built-in function, `isalpha()` that will allow us know (**True or False**) if a string object contains only alphabetic characters
  * Python has a built-in function, `lower()` that takes a character string and converts all the letters to lower case
