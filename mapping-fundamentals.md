@@ -86,8 +86,24 @@ If you are not asked about where to place the folder and it just decompresses in
 
 Congratulations! You’ve downloaded the software and organized the project files! That process of data download/organization is a constant one when working with GIS. And as you collect more and more data for mapping, you’ll often re-use data in multiple projects, so it’s good that you’re forming data organization habits that will help you in the long run. 
 
+# About QGIS
+
+QGIS (Quantum GIS) is a free and open-source Geographic Information System (GIS) that enables users to view, edit, analyze, and interpret spatial data.
+
+**Why Use QGIS?**
+- Free & Open-Source: No cost to use or distribute, and the source code is available for modification.
+- Cross-Platform: Works on Windows, macOS, and Linux.
+- Community Support: Active user and developer community offering tutorials, documentation, and forums.
+
+**What is QGIS Not Good For?**
+- High-End, Real-Time Analysis
+- Large-Scale, Big Data Analysis
+- Advanced 3D Visualization and Analysis
+
+Now it's time to dive in and get a taste of what QGIS can do!
+
 # Getting Oriented in QGIS
-Now we're going to get ourselves oriented in QGIS. We'll go over the layout of the user interface, point out the main buttons and tools available, and practice navigating the map canvas.
+We're going to get ourselves oriented in QGIS. We'll go over the layout of the user interface, point out the main buttons and tools available, and practice navigating the map canvas.
 
 ## Navigating the User Interface
 Open QGIS and you'll see the user interface. We'll briefly go through each area of the interface before creating a new project. The **Browser** and **Layers** panels are docked on the left side, and at the top are **Menu Bar** and the **Toolbars**. At the bottom is the **Status Bar** and the **Locator Bar**. The rest of the space is the **map canvas**, which at initialization is populated by thumbnails of recent projects, the news feed, and project templates. 
