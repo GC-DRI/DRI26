@@ -92,7 +92,7 @@ Now we're going to get ourselves oriented in QGIS. We'll go over the layout of t
 ## Navigating the User Interface
 Open QGIS and you'll see the user interface. We'll briefly go through each area of the interface before creating a new project. The **Browser** and **Layers** panels are docked on the left side, and at the top are **Menu Bar** and the **Toolbars**. At the bottom is the **Status Bar** and the **Locator Bar**. The rest of the space is the **map canvas**, which at initialization is populated by thumbnails of recent projects, the news feed, and project templates. 
 
-<img width="900" height="461" alt="Screenshot 2025-01-20 at 4 55 32 PM" src="https://github.com/user-attachments/assets/9c242ef1-3187-4d60-8815-4b1f63e14dbc" />
+![Annotated screenshot of user interface](/images/mapping/qgis-ui.png)
 
 ### Browser Panel
 The Browser panel contains a file tree that allows you to access your computer's files and folders, and this is how you'll add data into map projects. Below the drives are Database connections. Spend a minute expanding the file tree by clicking the arrows to the left of each folder. Navigate to the project folder that holds our data, right-click and select 'Add as Favorite.' This copies the folder to the Favorites folder at the top for quick and easy access. Collapse the file tree by clicking the arrows again. 
@@ -100,7 +100,7 @@ The Browser panel contains a file tree that allows you to access your computer's
 ### Customizing the UI
 You can reorganize the various panels and bars in the UI to your liking by clicking on the name of the panel and dragging. Left click on 'Browser', and drag the panel toward the right side of the screen by moving your mouse while the left-click is still engaged. Notice how the Browser panel is now free floating as a standalone panel. Continue to drag the Browser panel to the right side of the screen, and a highlighted blank space will appear. You can dock the Browser panel on the right by dropping the panel into the highlighted space. 
 
-<img width="685" height="435" alt="Screenshot 2025-01-20 at 5 52 44 PM" src="https://github.com/user-attachments/assets/94c7fd7b-0ca3-4d54-bd4f-d92d4875cc5a" />
+![Screenshot of QGIS UI with Browser panel undocked](/images/mapping/browser-panel.png)
 
 You can also convert a docked panel into a standalone panel by clicking the icon with overlapping squares in the top right corner of the panel. You can remove unnecessary panels by clicking the X icon in the top right corner. Remove the layers panel by clicking the X icon. 
 
@@ -215,7 +215,7 @@ In the bottom right corner of the interface, you'll see an icon of a globe inter
 
 Click the **CRS button** to open the **CRS Tab** in the Project Properties window, where you can explore and change the CRS for this project. 
 
-<img width="826" height="586" alt="Screenshot 2025-01-21 at 11 22 56 AM" src="https://github.com/user-attachments/assets/3fa8f474-444a-444c-a274-795cce80fe1b" />
+![Screenshot of Coordinate Reference System Window](/images/mapping/crs-window.png)
 
 At the top of this window is a Filter Bar where you can search for a particular CRS. This filters the catalog of CRSs below. Under the Filter Bar is a catalog of recently used CRSs, which has the current CRS highlighted. Next down is the catalog, which is organized first by CRS types: Compound, Geocentric, Geographic, or Projected. We need a Projected CRS. Expand the Projected folder. Here you'll see subfolders of many different types of projections. And these subfolders expand to show the different projections of that type. Browsing these projections can be quite overwhelming, especially if you aren't familiar with all the different projection types. That's ok! At the bottom of the window is projection information and projection preview, which offer useful information on how the selected projection works and what its useful for. 
 
@@ -262,7 +262,7 @@ Make sure that:
 
 Click Add and Close the window. 
 
-<img width="1341" height="857" alt="Screenshot 2025-01-21 at 2 36 04 PM" src="https://github.com/user-attachments/assets/afbe03d9-eab4-4ca4-abe0-8e1ec136381a" />
+![Screenshot of Delimited Text Layer Export Window](/images/mapping/delimited-text.png)
 
 Open the Attribute Table of the newly created Noise Complaints Layer to see that the fields and attributes were accurately converted and that there are no unexpected NULL values. Close the Attribute Table.
 
@@ -272,7 +272,7 @@ Remove the 311_Service_Requests CSV table from the Layers panel.
 
 Before we go further and play with how this data is visualized, we should export this point feature layer for future use. An important thing to note that while we continue to change and visualize this data in the map project, the original files housed in the browser haven't changed. So, while we have the Noise Complaint layer in the map project, it doesn't exist in our browser. If we delete it or want to use it in a different project, we would have to create this layer over again. Instead, we can export the layer as a standalone file housed on your computer and accessible through the browser. 
 
-To do export the Noise Complaint feature layer, right-click 2024 Noise Complaints and hover over **Export**, then select **Save Features As**. 
+To export the Noise Complaint feature layer, right-click 2024 Noise Complaints and hover over **Export**, then select **Save Features As**. 
 
 Select **ESRI Shapefile** from the Format Dropdown box. 
 For File Name, use the ellipses to navigate to the data folder for this project, and name the file 2024NoiseComplaints. 
@@ -291,7 +291,12 @@ Follow the same steps for exporting the NYC Neighborhoods layer as you did for e
 - Select **polygon** for the "geometry type
 - Select NAD 1983 State Plane NY Long Isl FIPS 3104 US Ft for the CRS.
 <Secret>
-  <img width="592" height="661" alt="Screenshot 2026-01-14 at 12 14 48 PM" src="https://github.com/user-attachments/assets/055483c8-6caa-4454-8e03-8ed21f423485" />
+To export the NYC Neighborhoods feature layer, right-click NYC Neighborhoods and hover over **Export**, then select **Save Features As**. 
+
+Select **ESRI Shapefile** from the Format Dropdown box. 
+For File Name, use the ellipses to navigate to the data folder for this project, and name the file NYC_Neighborhoods_NAD. 
+Select **polygon** for the **Geometry Type**. Then change the CRS to NAD 1983 State Plane NY Long Isl FIPS 3104 US Ft.
+Uncheck 'add saved file to map' and click Save. 
 </Secret>
 
 Notice that the re-projected NYC Neighborhoods NAD layer has been added to the map at the top of the drawing order. Move this layer below the Noise Complaints layer. 
@@ -345,6 +350,9 @@ Make sure that the Neighborhood Complaints layer is at the top of the drawing or
 In order to adjust the symbology of the Neighborhood Complaints layer, right-click the layer in the Layers Panel and select Properties. This opens the Layer Properties window. Select the "Symbology" tab from the left hand side. 
 This brings up the Symbology window. There are many options to choose from when styling a layer, and this window can be disorienting. 
 <img width="847" height="795" alt="Screenshot 2026-01-13 at 1 40 37 PM" src="https://github.com/user-attachments/assets/a37255c2-2f4a-4d09-9934-baf203e151fe" />
+
+![screenshot of QGIS canvas showing NYC Neighborhoods with a graduated symbology](/images/mapping/graduated-symbology.png)
+
 At the very top is a drop-down menu that lists the primary symbology styles. Currently, "Single Symbol" is selected. Expand the drop-down menu and select "Graduated." Notice that this changes the stylization options that are available below. 
 
 **Graduated symbology** is used to show quantitative differences between features by placing them into classes (or "bins") and assigning a specific visual style to each class. Instead of every single feature having a unique size or color, the data is grouped into ranges (e.g., low, medium, and high number of noise complaints).
@@ -426,6 +434,7 @@ Now only North Harlem, the Central Upper West Side, and Lincoln Square are label
  
 
 <img width="1020" height="661" alt="Screenshot 2026-01-14 at 5 01 42 PM" src="https://github.com/user-attachments/assets/4287c1db-2e78-4f8b-a778-ee8f64363548" />
+![Screenshot of QGIS Canvas with 3 Neighborhoods labeled](/images/mapping/labels.png)
 
 Before we move on to creating a Print Layout, remove all other layers from the **Layers Panel** so that only the Neighborhood Complaints layer is in the drawing order.  
 
@@ -491,6 +500,7 @@ If you're not sure what an icon does, you can hover over it with your cursor to 
 Before we get started adding map elements to the print layout, here's what the final result will look like.
 
 <img width="2550" height="3300" alt="NYC Noise ComplaintsImage" src="https://github.com/user-attachments/assets/98a4f40d-e9a8-434d-8fc9-dbf3e806985f" />
+![Example of Final Map Layout](/images/mapping/final-layout.png)
 
 The title will be at the top, the legend will be at the left, the map frame will be in the bottom right corner, and the scale bar and north arrow will be small and in the bottom right corner as well. Keep this positioning in mind and use this image as a reference while you follow along. 
 
