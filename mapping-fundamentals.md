@@ -349,7 +349,6 @@ Make sure that the Neighborhood Complaints layer is at the top of the drawing or
 
 In order to adjust the symbology of the Neighborhood Complaints layer, right-click the layer in the Layers Panel and select Properties. This opens the Layer Properties window. Select the "Symbology" tab from the left hand side. 
 This brings up the Symbology window. There are many options to choose from when styling a layer, and this window can be disorienting. 
-<img width="847" height="795" alt="Screenshot 2026-01-13 at 1 40 37 PM" src="https://github.com/user-attachments/assets/a37255c2-2f4a-4d09-9934-baf203e151fe" />
 
 ![screenshot of QGIS canvas showing NYC Neighborhoods with a graduated symbology](/images/mapping/graduated-symbology.png)
 
@@ -431,9 +430,7 @@ Next, under the Labels heading, change the Value to **ntaname**. Select the **bu
 Click Apply. 
 
 Now only North Harlem, the Central Upper West Side, and Lincoln Square are labelled. 
- 
 
-<img width="1020" height="661" alt="Screenshot 2026-01-14 at 5 01 42 PM" src="https://github.com/user-attachments/assets/4287c1db-2e78-4f8b-a778-ee8f64363548" />
 ![Screenshot of QGIS Canvas with 3 Neighborhoods labeled](/images/mapping/labels.png)
 
 Before we move on to creating a Print Layout, remove all other layers from the **Layers Panel** so that only the Neighborhood Complaints layer is in the drawing order.  
@@ -482,11 +479,11 @@ Usually docked on the right-hand side, the Layout panels help with fine-tuning. 
 
 These buttons handle the "big picture" tasks:
 
-Layout Barar: The top left side of the toolbar contains tools for saving and exporting the print layout to Image, SVG, or PDF.
+Layout Bar: The top left side of the toolbar contains tools for saving and exporting the print layout to Image, SVG, or PDF.
 
 Atlas Bar: The top right side of the toolbar. Buttons that look like a world globe with a blue "play" button. They are usually greyed out. Use these if you are generating dozens of maps at once.
 
-Navigation BAr: The bottom left of the toolbar. Standard magnifying glasses to navigate your paper workspace.
+Navigation Bar: The bottom left of the toolbar. Standard magnifying glasses to navigate your paper workspace.
 
 Actions Bar: The bottom middle of the toolbar, this row of icons helps with positioning map elements. You'll find tool like "Align Left," "Distribute Vertically," or "Bring to Front."
 
@@ -499,7 +496,6 @@ If you're not sure what an icon does, you can hover over it with your cursor to 
 
 Before we get started adding map elements to the print layout, here's what the final result will look like.
 
-<img width="2550" height="3300" alt="NYC Noise ComplaintsImage" src="https://github.com/user-attachments/assets/98a4f40d-e9a8-434d-8fc9-dbf3e806985f" />
 ![Example of Final Map Layout](/images/mapping/final-layout.png)
 
 The title will be at the top, the legend will be at the left, the map frame will be in the bottom right corner, and the scale bar and north arrow will be small and in the bottom right corner as well. Keep this positioning in mind and use this image as a reference while you follow along. 
