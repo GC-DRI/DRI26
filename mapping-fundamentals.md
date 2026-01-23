@@ -350,7 +350,7 @@ Make sure that the Neighborhood Complaints layer is at the top of the drawing or
 In order to adjust the symbology of the Neighborhood Complaints layer, right-click the layer in the Layers Panel and select Properties. This opens the Layer Properties window. Select the "Symbology" tab from the left hand side. 
 This brings up the Symbology window. There are many options to choose from when styling a layer, and this window can be disorienting. 
 
-![screenshot of QGIS canvas showing NYC Neighborhoods with a graduated symbology](/images/mapping/graduated-symbology.png)
+![QGIS canvas showing Neighborhoods with Graduated Symbology](/images/mapping/graduated-symbology.png)
 
 At the very top is a drop-down menu that lists the primary symbology styles. Currently, "Single Symbol" is selected. Expand the drop-down menu and select "Graduated." Notice that this changes the stylization options that are available below. 
 
