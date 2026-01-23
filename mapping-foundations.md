@@ -154,14 +154,15 @@ The following are all types of vector data except:
 Representing the real, 3D world in a contained, 2D display involves making choices and decisions that will necessarily be distortions of reality. At the most foundational level, every map begins with a lie--that the earth is flat. Any time you flatten a sphere you end up with distortion. This distortion worsens when the sphere isn’t a perfect sphere but is a kind of lumpy sphere--a geoid--like earth is. So when you flatten the earth into a **projection** you end up with some kind of distortion, no matter what. 
 
 Distortion happens in four ways. **Shape** is distorted, **size** is distorted, the **direction** between point a to point b is distorted, and the **distance** between those points is distorted. To rectify this, cartographers have developed a myriad of different ways to project the earth onto a flat surface. These are called map projections. As a rule of thumb, each projection can preserve no more than two of the four distortions and usually is only applicable to different certain areas of the world at certain scales. 
-![Projections and Distortion](https://github.com/user-attachments/assets/eff16094-86c0-4b17-b734-e47d2738607b)
+
+![Projections and Distortion](/images/mapping/gifdistortion.gif)
 
 For example, the Mercator Projection--the most famous and recognizable map projection--was originally developed for marine navigation across the Atlantic in the 16th century. The Mercator Projection preserves direction and distance near the equator at the cost of shape and size. See how at the world scale the Mercator Projection bloats the sizes and shapes of lands the further they are from the equator. Inappropriate and uninformed use of the Mercator Projection is how billions of people grew up thinking Greenland was the size of Africa.
 
- ![Mercator Distortion](https://github.com/user-attachments/assets/af5efac6-c648-401f-9423-29a4b0a64896)
-
+ ![Mercator Distortion](/images/mapping/mercatordistortion.gif)
  
-Beyond visual misrepresentation, inappropriate projections can mess with the accuracy of your spatial analysis. If your analysis involves measuring large distances in the United States, for example, using the Mercator projection will produce a different calculation than a projection that preserves area and distance like the Albers Equal Area Conic.  
+Beyond visual misrepresentation, inappropriate projections can mess with the accuracy of your spatial analysis. If your analysis involves measuring large distances in the United States, for example, using the Mercator projection will produce a different calculation than a projection that preserves area and distance like the Albers Equal Area Conic. 
+
 ![Distance Distortion](/images/mapping/distancedistortion.png)
 
 ### Knowledge Check
