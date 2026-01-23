@@ -26,8 +26,7 @@ installations:
         required: true
 
 author:
-    - 'Anna Schlenz'
-	
+    - 'Anna Schlenz'	
 instructor: 
     - 'Anna Schlenz'
 
